@@ -1,0 +1,22 @@
+  var marvelMovies = [
+	{"title": "spiderMan",
+	"link" : 'http://www.omdbapi.com/?t=spider-man&plot=full&apikey=3a181f1c'},
+  {"title": "spiderMan2",
+  "link": 'http://www.omdbapi.com/?t=spider-man-2&apikey=3a181f1c'},
+  {"title": "spiderMan3",
+  "link": 'http://www.omdbapi.com/?t=spider-man-3&apikey=3a181f1c'},
+  {"title": "theAmazingSpiderMan",
+  "link": 'http://www.omdbapi.com/?t=amazing-spider-man&apikey=3a181f1c'},
+  {"title": "theAmazingSpiderMan2",
+  "link": 'http://www.omdbapi.com/?t=amazing-spider-man-2&apikey=3a181f1c'},
+  {"title": "capitanAmerica",
+  "link": 'http://www.omdbapi.com/?t=captain+america&apikey=3a181f1c'},
+  {"title": "ironMan",
+  "link": 'http://www.omdbapi.com/?t=iron+man&apikey=3a181f1c'},
+  {"title": "ironMan2",
+  "link": 'http://www.omdbapi.com/?t=iron+man+2&apikey=3a181f1c'},
+  {"title": "ironMan3",
+  "link": 'http://www.omdbapi.com/?t=iron+man+3&apikey=3a181f1c'},
+  {"title": "thor",
+  "link": 'http://www.omdbapi.com/?t=thor&apikey=3a181f1c'}
+  ];
