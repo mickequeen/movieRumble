@@ -25,11 +25,18 @@ body {
 	float: right;
 }
 
-
-
 .logopow {
 	margin-top: -2vh;
 	
+}
+
+.leftmenu {
+	margin-top: 1.5vh;
+}
+
+.hamb {
+	margin-top: -8vh;
+
 }
 
 /*
