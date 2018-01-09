@@ -26,6 +26,12 @@ body {
 }
 
 
+
+.logopow {
+	margin-top: -2vh;
+	
+}
+
 /*
 *Estilos Video
 */
@@ -45,12 +51,12 @@ body {
 }
 
 .colum1{
-<<<<<<< HEAD
+
 	background-color: #CEFDCF;
-=======
+
 	background-color:#152F3E;
 
->>>>>>> 02ac4d6ca53710c38dcd4a22f8d4b6bcc187e30d
+
 }
 
 .colum2{
@@ -63,7 +69,7 @@ body {
 }
 
 #icon-movie i{
-  padding-right: 1vh;
+  padding-right: -2vh;
 }
 
 #video .logo{
