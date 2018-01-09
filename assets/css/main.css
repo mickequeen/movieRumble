@@ -19,23 +19,22 @@ body {
 *Estilos Navbar
 */
 .navright {
-	float: right;
+  float: right;
 }
 .navbar-r {
-	float: right;
+  float: right;
 }
 
 .logopow {
-	margin-top: -2vh;
-	
+  margin-top: -2vh;
 }
 
 .leftmenu {
-	margin-top: 1.5vh;
+  margin-top: 1.5vh;
 }
 
 .hamb {
-	margin-top: -8vh;
+  margin-top: -8vh;
 
 }
 
@@ -43,9 +42,9 @@ body {
 *Estilos Video
 */
 #video{
-	width: 100%;
-	min-width: 100%;
-	min-height:5%;
+  width: 100%;
+  min-width: 100%;
+  min-height:5%;
 }
 
 
@@ -53,21 +52,21 @@ body {
 *Estilos Section Main
 */
 .datos{
-	width: 100%;
-	height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .colum1{
 
-	background-color: #CEFDCF;
+  background-color: #CEFDCF;
 
-	background-color:#152F3E;
+  background-color:#152F3E;
 
 
 }
 
 .colum2{
-	background-color: #A7B1FF;
+  background-color: #A7B1FF;
 }
 
 #icon-movie {
@@ -80,8 +79,30 @@ body {
 }
 
 #video .logo{
-	border-radius: 30%;
-	margin-top: -5vh;
-	z-index: 100;
-	background-position: all;
+  border-radius: 30%;
+  margin-top: -5vh;
+  z-index: 100;
+  background-position: all;
+}
+
+h1{
+  font-size: 25px;
+}
+
+.login-input{
+  color: #000;
+  width: 70%;
+  height: 30px;
+  margin-top: 2%;
+}
+
+.btn-default{
+  margin-top: 2%;
+  width: 50%;
+  font-weight: bold;
+}
+
+.face-btn{
+  background: #4267b2;
+  color: #fff;
 }

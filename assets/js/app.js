@@ -1,7 +1,9 @@
-$(document).ready(function(){
+$ (document).ready (function() {
 
-  function Movies(){
+  function Movies () {
     
   }
-  
+  $ ('#login').click(function(){
+    $ ('#modal').modal ();
+  });
 });
