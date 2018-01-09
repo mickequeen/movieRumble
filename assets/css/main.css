@@ -15,32 +15,55 @@ body {
   padding-top: 4.5em;
 }
 
+/*
+*Estilos Navbar
+*/
 .navright {
+	float: right;
+}
+.navbar-r {
 	float: right;
 }
 
 
-
+/*
+*Estilos Video
+*/
 #video{
 	width: 100%;
 	min-width: 100%;
 	min-height:5%;
-
 }
 
+
+/*
+*Estilos Section Main
+*/
 .datos{
 	width: 100%;
 	height: auto;
-
-
 }
 
 .colum1{
 	background-color: #CEFDCF;
-
 }
 
 .colum2{
 	background-color: #A7B1FF;
 }
 
+#icon-movie {
+  padding-top: 0vh;
+  margin-left: 1vh;
+}
+
+#icon-movie i{
+  padding-right: 1vh;
+}
+
+#video .logo{
+	border-radius: 30%;
+	margin-top: -5vh;
+	z-index: 100;
+	background-position: all;
+}
