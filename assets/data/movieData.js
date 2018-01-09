@@ -1,4 +1,4 @@
-  var marvelMovies = [
+  /*var marvelMovies = [
 	{"title": "spiderMan",
 	"link" : 'http://www.omdbapi.com/?t=spider-man&plot=full&apikey=3a181f1c'},
   {"title": "spiderMan2",
@@ -19,4 +19,4 @@
   "link": 'http://www.omdbapi.com/?t=iron+man+3&apikey=3a181f1c'},
   {"title": "thor",
   "link": 'http://www.omdbapi.com/?t=thor&apikey=3a181f1c'}
-  ];
+  ];*/
