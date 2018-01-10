@@ -69,7 +69,7 @@ La interacción irá por doble vía, el usuario podrá obtener nueva informació
 
 Proveeremos la información más completa de cada producción cinematográfica, accediendo a ella con filtros rápidos.
 
-**Destacar emociones** El usuario podrá manifestar sus emociones calificando las películas (puntuación estrellas) y además, aportando información adicional en la herramienta de foro.
+**Destacar emociones**: El usuario podrá manifestar sus emociones calificando las películas (puntuación estrellas) y además, aportando información adicional en la herramienta de foro.
 
 
 
