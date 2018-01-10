@@ -132,6 +132,7 @@ h1{
 /*
 *Comentarios
 */
+
 .title{
   text-align: center;
 }
@@ -147,3 +148,15 @@ h1{
   }
 }
 
+
+.marvel{
+  background: linear-gradient(to bottom right,#FD5252 , #FFF);
+}
+
+.DC{
+  background: linear-gradient(to bottom right,#484457 , #A091F8);
+}
+
+.caption{
+  height: 20em;
+}

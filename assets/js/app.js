@@ -21,54 +21,51 @@ $(document).ready(function(){
 *thumbnail avengers
 */
     $('#firstBattle').append("<div class='col-xs-6 col-sm-6 col-md-6 col-log-6'>" +
-    "<div class='thumbnail'><img id='ultronPoster' alt='...''>" +
+    "<div class='thumbnail marvel'><img id='ultronPoster' alt='...''>" +
       "<div class='caption'><h3 class='title' id='ultron'>" + "</h3><p id='plotUltron'></p>" +
-      "<p><a href='#' class='btn btn-primary' role='button'>Button</a> <a href='#'' class='btn btn-default' role='button'>Button</a></p>"+
+      "<h4><b>Critics</b></h4>" +
+      "<p id='avengersIMDataBase'></p><p id='avengersRotten'></p>" +
+      "<p> <i class='fa fa-star movie' aria-hidden='true'></i>" +
+      "<i class='fa fa-star movie' aria-hidden='true'></i>" +
+      "<i class='fa fa-star movie' aria-hidden='true'></i>" +
+      "<i class='fa fa-star movie' aria-hidden='true'></i>" +
+      "<i class='fa fa-star movie' aria-hidden='true'></i></p>" +
       "</div></div></div>")
-   tituloUltron();
-    function tituloUltron (){
+   infoUltron();
+    function infoUltron (){
     $.getJSON('http://www.omdbapi.com/?t=ultron&apikey=3a181f1c').then(function(response){
-      $('#ultron').append(response.Title);
+      $('#ultron').append('<b>' + (response.Title) + '</b>');
+      $('#plotUltron').append(response.Plot);
+      $('#ultronPoster').attr('src' , response.Poster);
+      $('#avengersIMDataBase').append("<b>Source: </b>" + (response.Ratings[0].Source) + "; <b>Rating: </b>" + (response.Ratings[0].Value));
+      $('#avengersRotten').append("<b>Source: </b>" + (response.Ratings[1].Source) + "; <b>Rating: </b>" + (response.Ratings[1].Value));
       });
     }
-    ImgUltron();
-    function ImgUltron(){
-    $.getJSON('http://www.omdbapi.com/?t=ultron&apikey=3a181f1c').then(function(response){
-      $('#ultronPoster').attr('src' , response.Poster);
-    });
-  }
-  plotUltron();
-    function plotUltron(){
-    $.getJSON('http://www.omdbapi.com/?t=ultron&apikey=3a181f1c').then(function(response){
-      $('#plotUltron').append(response.Plot);
-    });
-  }
+
 /*
 *Thumbnail Justice League
 */
     $('#firstBattle').append("<div class='col-xs-6 col-sm-6 col-md-6 col-log-6'>" +
-    "<div class='thumbnail'><img id='JusticeLPoster' alt='...''>" +
+    "<div class='thumbnail DC'><img id='JusticeLPoster' alt='...''>" +
       "<div class='caption'><h3 class='title' id='justiceL'>" + "</h3><p id='plotJustice'></p>" +
-      "<p><a href='#' class='btn btn-primary' role='button'>Button</a> <a href='#'' class='btn btn-default' role='button'>Button</a></p>"+
+      "<h4><b>Critics</b></h4>" +
+      "<p id='jLeagueIMDataBase'></p><p id='jLeagueRotten'></p>"+
+      "<p> <i class='fa fa-star movie' aria-hidden='true'></i>" +
+      "<i class='fa fa-star movie' aria-hidden='true'></i>" +
+      "<i class='fa fa-star movie' aria-hidden='true'></i>" +
+      "<i class='fa fa-star movie' aria-hidden='true'></i>" +
+      "<i class='fa fa-star movie' aria-hidden='true'></i></p>" +
       "</div></div></div>")
-   tituloJusticeL();
-    function tituloJusticeL (){
+   infoJusticeL();
+    function infoJusticeL (){
     $.getJSON('http://www.omdbapi.com/?t=justice+league&apikey=3a181f1c').then(function(response){
-      $('#justiceL').append(response.Title);
+      $('#justiceL').append('<b>' + (response.Title) + '</b>');
+      $('#JusticeLPoster').attr('src' , response.Poster);
+      $('#plotJustice').append(response.Plot);
+      $('#jLeagueIMDataBase').append("<b>Source: </b>" + (response.Ratings[0].Source) + "; <b>Rating: </b>" + (response.Ratings[0].Value));
+      $('#jLeagueRotten').append("<b>Source: </b>" + (response.Ratings[1].Source) + "; <b>Rating: </b>" + (response.Ratings[1].Value));
       });
     }
-    ImgJusticeL();
-    function ImgJusticeL(){
-    $.getJSON('http://www.omdbapi.com/?t=justice+league&apikey=3a181f1c').then(function(response){
-      $('#JusticeLPoster').attr('src' , response.Poster);
-    });
-  }
-  plotJusticeL();
-    function plotJusticeL(){
-    $.getJSON('http://www.omdbapi.com/?t=justice+league&apikey=3a181f1c').then(function(response){
-      $('#plotJustice').append(response.Plot);
-    });
-  }
 
 
 
