@@ -75,6 +75,8 @@ Producto web. Versión mobile y escritorio.
 
 Sketches elaborados en el proyecto:
 
+![Idea Inicial] (https://i.imgur.com/a/x8hCX)
+
 ![Primera vista Sketch] (https://i.imgur.com/a/zJfmR)
 
 ![Login Sketch] (https://i.imgur.com/a/pVgZy)
