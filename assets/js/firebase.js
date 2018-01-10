@@ -1,3 +1,4 @@
+  (function(){
   // Initialize Firebase
   var config = {
     apiKey: "AIzaSyDAkx_-jelOE2xPjZRE9dbsi6QxrVvnnsE",
@@ -59,3 +60,5 @@
   const promise = auth.createUserWithEmailAndPassword (email, pass);
   promise.catch(e => console.log(e.message));
   });
+
+  } ());
