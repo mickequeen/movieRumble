@@ -1,4 +1,5 @@
 
+
   var spiderMan = 'http://www.omdbapi.com/?t=spider-man&plot=full&apikey=3a181f1c';
   var spiderMan2 = 'http://www.omdbapi.com/?t=spider-man-2&apikey=3a181f1c';
   var spiderMan3 = 'http://www.omdbapi.com/?t=spider-man-3&apikey=3a181f1c';
@@ -26,18 +27,18 @@ $(document).ready(function(){
   }
     /*$('#firstBattle').append("<div id='firstMarvel' class='col-xs-6 col-sm-6 col-ms-6 col-lg-6>" +
       "<div class=thumbnail'><img src='" + title(spiderMan)"' alt="...">")*/
-});
-
-
 /*
 *funcion comentarios
 */
 
-$("#btn").click(function comm(){
-  var comment = $("#comment").val();
-  $("#post").append("<span id='usuario'><i class='fa fa-user-circle' aria-hidden='true'></i></span>" + comment + "</br>"+"</div>" );
-    
+  $("#btn").click(function comm(){
+    var comment = $("#comment").val();
+    $("#post").append("<span id='usuario'><i class='fa fa-user-circle' aria-hidden='true'></i></span>" + comment + "</br>"+"</div>" );
+  });
 });
+
+
+
 
 
 
