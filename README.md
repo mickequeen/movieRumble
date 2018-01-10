@@ -35,9 +35,11 @@ Proveeremos la información más completa de cada producción cinematográfica, 
 
 #FORMATO A ENTREGAR: Producto web. Versión mobile y escritorio.
 
-![Primera vista Sketch] (https://i.imgur.com/a/zJfmR)
+Sketch primera vista del producto:
+![Primera vista Sketch](/primeravista.jpeg)
 
-![Login Sketch] (https://i.imgur.com/a/pVgZy)
+Sketch Modal para Login:
+![Login Sketch](/modal.jpg)
 
 
 
