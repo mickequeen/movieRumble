@@ -33,7 +33,7 @@ $(document).ready(function(){
       "</div></div></div>")
    infoUltron();
     function infoUltron (){
-    $.getJSON('http://www.omdbapi.com/?t=ultron&apikey=3a181f1c').then(function(response){
+    $.getJSON('https://www.omdbapi.com/?t=ultron&apikey=3a181f1c').then(function(response){
       $('#ultron').append('<b>' + (response.Title) + '</b>');
       $('#plotUltron').append(response.Plot);
       $('#ultronPoster').attr('src' , response.Poster);
@@ -58,7 +58,7 @@ $(document).ready(function(){
       "</div></div></div>")
    infoJusticeL();
     function infoJusticeL (){
-    $.getJSON('http://www.omdbapi.com/?t=justice+league&apikey=3a181f1c').then(function(response){
+    $.getJSON('https://www.omdbapi.com/?t=justice+league&apikey=3a181f1c').then(function(response){
       $('#justiceL').append('<b>' + (response.Title) + '</b>');
       $('#JusticeLPoster').attr('src' , response.Poster);
       $('#plotJustice').append(response.Plot);
