@@ -56,6 +56,9 @@ body {
 	min-height:5%;
 	margin-top: -13px;
 	margin-bottom: -5px;
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 2em;
 
 }
 
@@ -110,7 +113,6 @@ h1{
 
 .btn-default{
   margin-top: 2%;
-  width: 60%;
   font-weight: bold;
 }
 
@@ -128,8 +130,11 @@ h1{
 /*
 *Comentarios
 */
+
+=======
 }
 
 .title{
   text-align: center;
 }
+>>>>>>> thumbnail js

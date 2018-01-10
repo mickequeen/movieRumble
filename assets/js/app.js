@@ -18,11 +18,11 @@ $(document).ready(function(){
   });
 
 /*
-*thumbnail spiderMan
+*thumbnail avengers
 */
     $('#firstBattle').append("<div class='col-xs-6 col-sm-6 col-md-6 col-log-6'>" +
     "<div class='thumbnail'><img id='ultronPoster' alt='...''>" +
-      "<div class='caption'><h3 class='title' id='ultron'>" + "</h3><p>descripcion</p>" +
+      "<div class='caption'><h3 class='title' id='ultron'>" + "</h3><p id='plotUltron'></p>" +
       "<p><a href='#' class='btn btn-primary' role='button'>Button</a> <a href='#'' class='btn btn-default' role='button'>Button</a></p>"+
       "</div></div></div>")
    tituloUltron();
@@ -37,7 +37,38 @@ $(document).ready(function(){
       $('#ultronPoster').attr('src' , response.Poster);
     });
   }
-
+  plotUltron();
+    function plotUltron(){
+    $.getJSON('http://www.omdbapi.com/?t=ultron&apikey=3a181f1c').then(function(response){
+      $('#plotUltron').append(response.Plot);
+    });
+  }
+/*
+*Thumbnail Justice League
+*/
+    $('#firstBattle').append("<div class='col-xs-6 col-sm-6 col-md-6 col-log-6'>" +
+    "<div class='thumbnail'><img id='JusticeLPoster' alt='...''>" +
+      "<div class='caption'><h3 class='title' id='justiceL'>" + "</h3><p id='plotJustice'></p>" +
+      "<p><a href='#' class='btn btn-primary' role='button'>Button</a> <a href='#'' class='btn btn-default' role='button'>Button</a></p>"+
+      "</div></div></div>")
+   tituloJusticeL();
+    function tituloJusticeL (){
+    $.getJSON('http://www.omdbapi.com/?t=justice+league&apikey=3a181f1c').then(function(response){
+      $('#justiceL').append(response.Title);
+      });
+    }
+    ImgJusticeL();
+    function ImgJusticeL(){
+    $.getJSON('http://www.omdbapi.com/?t=justice+league&apikey=3a181f1c').then(function(response){
+      $('#JusticeLPoster').attr('src' , response.Poster);
+    });
+  }
+  plotJusticeL();
+    function plotJusticeL(){
+    $.getJSON('http://www.omdbapi.com/?t=justice+league&apikey=3a181f1c').then(function(response){
+      $('#plotJustice').append(response.Plot);
+    });
+  }
 
 
 
