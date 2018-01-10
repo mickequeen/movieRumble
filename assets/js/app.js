@@ -20,9 +20,9 @@ $(document).ready(function(){
 /*
 *thumbnail avengers
 */
-    $('#firstBattle').append("<div class='col-xs-6 col-sm-6 col-md-6 col-log-6'>" +
+    $('#firstBattle').append("<div class='col-xs-12 col-sm-12 col-md-5 col-md-offset-1 col-lg-5 col-lg-offset'>" +
     "<div class='thumbnail marvel'><img id='ultronPoster' alt='...''>" +
-      "<div class='caption'><h3 class='title' id='ultron'>" + "</h3><p id='plotUltron'></p>" +
+      "<div class='caption'><h3 class='title' id='ultron'>" + "</h3><p class='plot' id='plotUltron'></p>" +
       "<h4><b>Critics</b></h4>" +
       "<p id='avengersIMDataBase'></p><p id='avengersRotten'></p>" +
       "<p> <i class='fa fa-star movie' aria-hidden='true'></i>" +
@@ -40,14 +40,16 @@ $(document).ready(function(){
       $('#avengersIMDataBase').append("<b>Source: </b>" + (response.Ratings[0].Source) + "; <b>Rating: </b>" + (response.Ratings[0].Value));
       $('#avengersRotten').append("<b>Source: </b>" + (response.Ratings[1].Source) + "; <b>Rating: </b>" + (response.Ratings[1].Value));
       });
-    }
+    };
 
+    $('#firstBattle').append("<div class='col-xs-12 col-sm-12 col-md-1 col-md-pull-2 col-lg-1 col-lg-pull-2'>" +
+      "<img class='versus' src='assets/img/versus.png' alt='versus'></div>");
 /*
 *Thumbnail Justice League
 */
-    $('#firstBattle').append("<div class='col-xs-6 col-sm-6 col-md-6 col-log-6'>" +
+    $('#firstBattle').append("<div class='col-xs-12 col-sm-12 col-md-5 col-md-pull-1 col-lg-5 col-lg-pull-1'>" +
     "<div class='thumbnail DC'><img id='JusticeLPoster' alt='...''>" +
-      "<div class='caption'><h3 class='title' id='justiceL'>" + "</h3><p id='plotJustice'></p>" +
+      "<div class='caption'><h3 class='title' id='justiceL'>" + "</h3><p class='plot' id='plotJustice'></p>" +
       "<h4><b>Critics</b></h4>" +
       "<p id='jLeagueIMDataBase'></p><p id='jLeagueRotten'></p>"+
       "<p> <i class='fa fa-star movie' aria-hidden='true'></i>" +
