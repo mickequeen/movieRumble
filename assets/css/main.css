@@ -117,14 +117,13 @@ h1{
 .face-btn{
   background: #4267b2;
   color: #fff;
-	text-align center;
+	text-align:center;
 
 }
 
 .caja{
 	margin-top:40px; 
 }
-
 
 /*
 *Comentarios
