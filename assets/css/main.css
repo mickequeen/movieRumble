@@ -15,9 +15,11 @@ body {
   padding-top: 4.5em;
 }
 
+
 /*
 *Estilos Navbar
 */
+
 .navright {
   float: right;
 }
@@ -28,6 +30,7 @@ body {
 .logopow {
   margin-top: -2vh;
 }
+
 
 .leftmenu {
   margin-top: 1.5vh;
@@ -47,26 +50,35 @@ body {
   min-height:5%;
 }
 
-
-/*
-*Estilos Section Main
-*/
 .datos{
   width: 100%;
   height: auto;
 }
-
-.colum1{
-
-  background-color: #CEFDCF;
-
-  background-color:#152F3E;
-
+#video{
+	width: 100%;
+	min-width: 100%;
+	min-height:5%;
+	margin-top: -13px;
+	margin-bottom: -5px;
 
 }
 
+/*
+*Seccion  Datos 
+*/
+
+.datos{
+	text-align: center;
+}
+
+.caja{
+	margin: 40px;
+}
+.colum1{
+	background-color:#FDD0D0;
+}
 .colum2{
-  background-color: #A7B1FF;
+	background-color:#D5D9F8;
 }
 
 #icon-movie {
@@ -107,4 +119,16 @@ h1{
 .face-btn{
   background: #4267b2;
   color: #fff;
+	text-align center;
+
 }
+
+.caja{
+	margin-top:40px; 
+}
+
+
+/*
+*Comentarios
+*/
+
