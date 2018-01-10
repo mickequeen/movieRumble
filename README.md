@@ -1,4 +1,4 @@
-## 1. MovieRumble v.1.0 (Enero de 2017)
+1. MovieRumble v.1.0 (Enero de 2017)
 
 Autoras:
 **Carol Martínez**
@@ -6,7 +6,7 @@ Autoras:
 **Lorena Palominos**
 **Natalia Arancibia**
 
-####PRODUCTO:
+#PRODUCTO:
 
 Desarrollamos un producto digital que ayude a los amantes de las casas editoriales Marvel y DC, a obtener información sobre sus producciones cinematográficas. Como los personajes e historias homólogas de cada casa editorial, siempre han generado diferencias entre sus fans, nuestro objetivo es contraponer la información contextualizada y filtrada de cada historia.
 Los usuarios tendrán a su alcance, esta información de varias formas:
@@ -17,15 +17,15 @@ Los usuarios tendrán a su alcance, esta información de varias formas:
 
 En este sitio web, el usuario puede crear su sesión con su respectivo login, y desde allí podrá relacionarse con los demás usuarios.
 
-####VALIDACION DE LA IDEA:
+#VALIDACION DE LA IDEA:
 Las películas de héroes enmascarados han estado ligadas al cine desde hace mucho tiempo. Muchos cineastas basaron su narrativa en historietas, pero fueron películas como Superman o Batman y más recientemente Spider-man o el Caballero oscuro, las que revelaron la magnitud del dinero que se podía hacer con este tipo de proyectos si se ejecutaban de la manera correcta. Las películas de superhéroes han despertado a un nuevo tipo de consumidor que se ve satisfecho tras presenciar la película en el cine, tener los cómics en casa, series de televisión y la especulación en internet.
 
 Entonces, ya un mercado existente, con una necesidad concreta y es un nicho rentable.
 
-####OBJETIVOS:
+#OBJETIVOS:
 Proveer información filtrada y especializada a los fanáticos de las casas editoriales Marvel y DC, y generar una sana interacción entre ellos.
 
-####EXPERIENCIA DE USUARIO:
+#EXPERIENCIA DE USUARIO:
 Proveer la mejor experiencia de usuario para los fanáticos fanáticos de Marvel y DC, donde podrán además de obtener información especializada sobre cada película, podrán contextualizar como se contraponen y/o relacionan las historias y personajes de las dos casas. Además, por medio de los foros y puntuaciones, nuestro producto facilitará el contacto con otros usuarios con sus mismos intereses (establecer redes).
 La interacción irá por doble vía, el usuario podrá obtener nueva información actualizada, y podrá además, proveer información y debatir.
 
@@ -33,53 +33,53 @@ Proveeremos la información más completa de cada producción cinematográfica, 
 
 **Destacar emociones**: El usuario podrá manifestar sus emociones calificando las películas (puntuación estrellas) y además, aportando información adicional en la herramienta de foro.
 
-####FORMATO A ENTREGAR: Producto web. Versión mobile y escritorio.
+#FORMATO A ENTREGAR: Producto web. Versión mobile y escritorio.
 
-![Primera vista Sketch] (https://imgur.com/a/zJfmR)
+![Primera vista Sketch] (https://i.imgur.com/a/zJfmR)
 
-![Login Sketch] (https://imgur.com/a/pVgZy)
-
-
-
-####FLUJO DE LA APLICACION
+![Login Sketch] (https://i.imgur.com/a/pVgZy)
 
 
-VISTA GENERAL
-![Pagina General] (https://imgur.com/a/m6Gcy)
+
+#FLUJO DE LA APLICACION
+
+
+#VISTA GENERAL
+![Pagina General] (https://i.imgur.com/a/m6Gcy)
 
 Flujo una vez usuario está logueado (**LOG IN**)
 
-VISTA USUARIO REGISTRADO
-![Menu Login] (https://imgur.com/a/PGOgO)
+#VISTA USUARIO REGISTRADO
+![Menu Login] (https://i.imgur.com/a/PGOgO)
 
 Ya ingresado a su sesión, el usuario podrá acceder a la funcionalidad completa de la página:
 - Información seleccionada sobre las diferentes "Battles" entre películas (vs).
 
-VISTA USUARIO REGISTRADO CON UTILIDADES DEL PRODUCTO
-![Opciones de usuario] (https://imgur.com/a/FswX3)
+#VISTA USUARIO REGISTRADO CON UTILIDADES DEL PRODUCTO
+![Opciones de usuario] (https://i.imgur.com/a/FswX3)
 
-![Comentarios] (https://imgur.com/a/tM3fS)
+![Comentarios] (https://i.imgur.com/a/tM3fS)
 
 - Calificación de películas
 - Ranking de películas
 - Foro
 
-####TRABAJO EN EQUIPO
+#TRABAJO EN EQUIPO
 
-####ORGANIZACION
+#ORGANIZACION
 -  Definir perfiles:  UX DESIGNER -FRONT END
 
-####DIVISION DEL TRABAJO
+#DIVISION DEL TRABAJO
 ****Labor por alumna****
 
-LABOR FRONT-END
+#LABOR FRONT-END
 Carol Martínez:
 - Implementación y desarrollo de API OMDd (Base de Datos)
 
 Lorena Palominos:
 - Implementación y desarrollo de Firebase (Plataforma para el desarrollo de Aplicaciones) y Modal de Login.
 
-LABOR UX DESIGNER
+#LABOR UX DESIGNER
 Natalia Arancibia - Diana Chaparro
 - Diseño y Maquetado (estructura del producto).
 - Investigación de producto.
