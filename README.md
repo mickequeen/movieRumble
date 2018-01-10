@@ -35,9 +35,9 @@ Proveeremos la información más completa de cada producción cinematográfica, 
 
 ####FORMATO A ENTREGAR: Producto web. Versión mobile y escritorio.
 
-![img] (/img/README/primeravista.jpg) (primera vista sketch)
+![Primera vista Sketch] (https://imgur.com/a/zJfmR)
 
-![Img] (/img/README/modal.jpg) (Login Sketch)
+![Login Sketch] (https://imgur.com/a/pVgZy)
 
 
 
@@ -45,18 +45,20 @@ Proveeremos la información más completa de cada producción cinematográfica, 
 
 
 VISTA GENERAL
-![Img] (/img/README/vistauno.jpg) (Página general)
+![Pagina General] (https://imgur.com/a/m6Gcy)
 
 Flujo una vez usuario está logueado (**LOG IN**)
 
 VISTA USUARIO REGISTRADO
-![Img] (/img/README/desplieguemenu.jpg) (Menú - Login)
+![Menu Login] (https://imgur.com/a/PGOgO)
 
 Ya ingresado a su sesión, el usuario podrá acceder a la funcionalidad completa de la página:
 - Información seleccionada sobre las diferentes "Battles" entre películas (vs).
 
 VISTA USUARIO REGISTRADO CON UTILIDADES DEL PRODUCTO
-![Img] (/img/README/comentario.jpg) (Comentarios)
+![Opciones de usuario] (https://imgur.com/a/FswX3)
+
+![Comentarios] (https://imgur.com/a/tM3fS)
 
 - Calificación de películas
 - Ranking de películas
