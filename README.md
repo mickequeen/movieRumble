@@ -1,10 +1,10 @@
 ## 1. MovieRumble v.1.0 (Enero de 2017)
 
 Autoras:
-**Carol Martínez
-**Diana Chaparro
-**Lorena Palominos
-**Natalia Arancibia
+**Carol Martínez**
+**Diana Chaparro**
+**Lorena Palominos**
+**Natalia Arancibia**
 
 ####PRODUCTO:
 
@@ -31,33 +31,32 @@ La interacción irá por doble vía, el usuario podrá obtener nueva informació
 
 Proveeremos la información más completa de cada producción cinematográfica, accediendo a ella con filtros rápidos.
 
-**Destacar emociones** El usuario podrá manifestar sus emociones calificando las películas (puntuación estrellas) y además, aportando información adicional en la herramienta de foro.
+**Destacar emociones**: El usuario podrá manifestar sus emociones calificando las películas (puntuación estrellas) y además, aportando información adicional en la herramienta de foro.
 
 ####FORMATO A ENTREGAR: Producto web. Versión mobile y escritorio.
 
-![Imgur] (https://imgur.com/a/zJfmR) Sketch primera vista MovieRamble
+![img] (/img/README/primeravista.jpg) (primera vista sketch)
 
-![Imgur] (https://imgur.com/a/pVgZy) Sketch Login
+![Img] (/img/README/modal.jpg) (Login Sketch)
 
 
 
 ####FLUJO DE LA APLICACION
-**Flujo de la aplicación.**
+
 
 VISTA GENERAL
-![Imgur] (https://imgur.com/a/m6Gcy)
+![Img] (/img/README/vistauno.jpg) (Página general)
 
 Flujo una vez usuario está logueado (**LOG IN**)
 
 VISTA USUARIO REGISTRADO
-![Imgur](https://imgur.com/a/PGOgO)
+![Img] (/img/README/desplieguemenu.jpg) (Menú - Login)
 
 Ya ingresado a su sesión, el usuario podrá acceder a la funcionalidad completa de la página:
 - Información seleccionada sobre las diferentes "Battles" entre películas (vs).
 
 VISTA USUARIO REGISTRADO CON UTILIDADES DEL PRODUCTO
-![Imgur](https://imgur.com/a/FswX3)
-![Imgur](https://imgur.com/a/tM3fS)
+![Img] (/img/README/comentario.jpg) (Comentarios)
 
 - Calificación de películas
 - Ranking de películas
