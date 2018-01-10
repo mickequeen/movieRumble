@@ -131,6 +131,7 @@ h1{
 *Comentarios
 */
 
+<<<<<<< HEAD
 =======
 }
 
@@ -138,3 +139,15 @@ h1{
   text-align: center;
 }
 >>>>>>> thumbnail js
+=======
+@media only screen and (max-width: 640px){
+  .btn-default{
+  margin-top: 2%;
+  width: 80%;
+  font-weight: bold;
+  }
+  .login-input{
+  width: 80%;
+  }
+}
+>>>>>>> agregando ids en botones

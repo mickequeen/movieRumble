@@ -50,17 +50,17 @@
                 <li class="leftmenu" id="login"><a href="#">Login</a></li>
                 <div style="display: none;" id="modal">
                   <h1>Inicia Sesión</h1>
-                  <input class="login-input" type="email" name="email" placeholder="Email">
+                  <input id="txtEmail" class="login-input" type="email" name="email" placeholder="Email">
                   <br>
-                  <input class="login-input" type="password" name="pass" placeholder="Password">
+                  <input id="txtPassword" class="login-input" type="password" name="pass" placeholder="Password">
                   <br>
-                  <button class="btn btn-default">Login</button>
+                  <button id="btnLogin" class="btn btn-default">Login</button>
                   <br>
-                  <button class="btn btn-default face-btn">Login with Facebook</button>
+                  <button id="faceLogin" class="btn btn-default face-btn">Login with Facebook</button>
                   <br>
-                  <button class="btn btn-default">Registrarse</button>
+                  <button id="btnSignUp" class="btn btn-default">Registrarse</button>
                   <br>
-                  <button class="btn btn-default hide">Logout</button>
+                  <button id="btnLogout" class="btn btn-default hide">Logout</button>
                 </div>
               </ul>
             </div>
@@ -72,11 +72,8 @@
 <!-- Video -->
 <section class='container-fluid'>
   <div class="row ">
-
       <video class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="video" src="assets/video/MarvelDcc.mp4" muted autoplay loop poster alt="">
       </video>
-
-  <div class="container-fluid video">
 </section>
 
 <!--section dos columnas para cada seccion-->
@@ -132,7 +129,7 @@
 
 <div class="col-xs-12 col-md-6 col-sm-6 colum2">
   <div class=" col-sm-6 col-md-offset-4 col-md-6 ">
-    <div class="thumbnail  caja">
+    <div class="thumbnail caja">
       <img src="..." alt="...">
       <div class="caption">
         <h4>La liga de la justicia</h4>
