@@ -111,16 +111,18 @@ h1{
   border: 1px solid #ccc;
 }
 
-.btn-default{
+#btnLogin,
+#btnSignUp{
   margin-top: 2%;
   font-weight: bold;
+  width: 35%;
 }
 
 .face-btn{
   background: #4267b2;
   color: #fff;
-	text-align:center;
-
+  text-align:center;
+  margin-top: 2%;
 }
 
 .caja{
@@ -130,24 +132,18 @@ h1{
 /*
 *Comentarios
 */
-
-<<<<<<< HEAD
-=======
-}
-
 .title{
   text-align: center;
 }
->>>>>>> thumbnail js
-=======
+
 @media only screen and (max-width: 640px){
   .btn-default{
   margin-top: 2%;
-  width: 80%;
+  width: 70%;
   font-weight: bold;
   }
   .login-input{
   width: 80%;
   }
 }
->>>>>>> agregando ids en botones
+
