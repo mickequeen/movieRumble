@@ -50,10 +50,6 @@ body {
   min-height:5%;
 }
 
-.datos{
-  width: 100%;
-  height: auto;
-}
 #video{
 	width: 100%;
 	min-width: 100%;
@@ -68,6 +64,8 @@ body {
 */
 
 .datos{
+	width: 100%;
+  height: auto;
 	text-align: center;
 }
 
