@@ -108,7 +108,7 @@ $(document).ready(function(){
       "</div></div></div>")
    infoCivilWar ();
     function infoCivilWar (){
-    $.getJSON('http://www.omdbapi.com/?t=captain+america+civil+war&apikey=3a181f1c').then(function(response){
+    $.getJSON('https://www.omdbapi.com/?t=captain+america+civil+war&apikey=3a181f1c').then(function(response){
       $('#civilWar').append('<b>' + (response.Title) + '</b>');
       $('#plotCivilWar').append(response.Plot);
       $('#civilWarPoster').attr('src' , response.Poster);
@@ -133,7 +133,7 @@ $(document).ready(function(){
       "</div></div></div>")
    infoBatmanVSuperman ();
     function infoBatmanVSuperman (){
-    $.getJSON('http://www.omdbapi.com/?t=dawn+of+justice&apikey=3a181f1c').then(function(response){
+    $.getJSON('https://www.omdbapi.com/?t=dawn+of+justice&apikey=3a181f1c').then(function(response){
       $('#BvsS').append('<b>' + (response.Title) + '</b>');
       $('#plotBvsS').append(response.Plot);
       $('#BvsSPoster').attr('src' , response.Poster);
