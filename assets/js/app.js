@@ -33,7 +33,6 @@ $(document).ready(function(){
     $ ('#modal2').modal ();
   });
 
-
 /*
 *thumbnail avengers
 */
