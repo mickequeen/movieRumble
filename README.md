@@ -38,11 +38,8 @@ Los usuarios tendrán a su alcance, esta información de varias formas:
 
 - **Info de títulos**: Cada título tiene información detallada como: Resumen, personajes, historia, etc.
 
-<<<<<<< HEAD
-![Vista de info de títulos](https://drive.google.com/open?id=1djOvw7omY0dAsq4fRv_vW1inyHsbkPro)
-=======
 ![](https://i.imgur.com/HV5LcWL.jpg)
->>>>>>> pull general
+
 
 - **Acceso a críticas de cada cinta**: Cada título tiene acceso a Ranking y Críticas de lugares certificados como _Rotten Tomatoes_ e _Internet Movie Database_.
 
