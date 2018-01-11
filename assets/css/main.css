@@ -193,6 +193,28 @@ h1{
 
 }
 
+.foot{
+ background-color: #231E1E;
+
+}
+.foot1 i{
+  top:50px;
+  color:#fff;
+  font-size: 200%;
+  left: 200px;
+}
+.foot p{
+  color:#fff;
+}
+
+#logfooter{
+  margin-top:10px;
+  }
+  
+.fa-facebook-square{
+  margin-top:30px;
+  margin-left:100px;
+}
 @media (min-width: 970px) {
   .versus{
     padding-top: 100%;

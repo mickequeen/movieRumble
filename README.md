@@ -38,11 +38,11 @@ Los usuarios tendrán a su alcance, esta información de varias formas:
 
 - **Info de títulos**: Cada título tiene información detallada como: Resumen, personajes, historia, etc.
 
-![Vista de info de títulos] (https://i.imgur.com/a/CpCoh)
+![Vista de info de títulos](https://drive.google.com/open?id=1djOvw7omY0dAsq4fRv_vW1inyHsbkPro)
 
 - **Acceso a críticas de cada cinta**: Cada título tiene acceso a Ranking y Críticas de lugares certificados como _Rotten Tomatoes_ e _Internet Movie Database_.
 
-![Vista críticas de cada cinta] (https://i.imgur.com/a/YOy9m)
+![Vista críticas de cada cinta] (https://i.imgur.com/a/YOy9m.png)
 
 - **Foro**: Para generar debate y generar las "battles" (discusiones eternas), los usuarios podrán exponer sus ideas. Entre más battles e interacción haya, se generarán más visitas.
 
@@ -84,7 +84,7 @@ Producto web. Versión mobile y escritorio.
 
 Sketches elaborados en el proyecto:
 
-![Idea Inicial] (https://i.imgur.com/a/x8hCX)
+![Idea Inicial] (https://i.imgur.com/a/x8hCX )
 
 ![Primera vista Sketch] (https://i.imgur.com/a/zJfmR)
 
