@@ -242,6 +242,30 @@ h1{
   font-weight: bolder;
 }
 
+
+.red{
+  color:red!important;
+}
+
+.black{
+  color:#000!important;
+}
+
+#icons{
+  color:#949494;
+}
+
+#icons i{
+  padding: 1em;
+}
+
+.fa-heart, .fa-bomb{
+  float: left;
+}
+ 
+.fa-trash-alt{
+  float: right;
+}
 /*
 *estilos de caja comentarios
 */

@@ -1,7 +1,14 @@
 
- var spiderMan = 'http://www.omdbapi.com/?t=spider-man&plot=full&apikey=3a181f1c';
-  var spiderMan2 = 'http://www.omdbapi.com/?t=spider-man-2&apikey=3a181f1c';
-  var spiderMan3 = 'http://www.omdbapi.com/?t=spider-man-3&apikey=3a181f1c';
+var idHeartOne = 0;
+var idBombOne = 0;
+var idTrashOne = 0;
+var idHeartTwo = 0;
+var idBombTwo = 0;
+var idTrashTwo = 0;
+var idHeartThree = 0;
+var idBombThree = 0;
+var idTrashThree = 0;
+
   var AmazingSpiderMan = 'http://www.omdbapi.com/?t=amazing-spider-man&apikey=3a181f1c';
   var AmazingSpiderMan2 = 'http://www.omdbapi.com/?t=amazing-spider-man-2&apikey=3a181f1c';
   var capitanAmerica = 'http://www.omdbapi.com/?t=captain+america&apikey=3a181f1c';
@@ -30,7 +37,7 @@ $(document).ready(function(){
 /*
 *thumbnail avengers
 */
-    $('#firstBattle').append("<div class='col-xs-12 col-sm-12 col-md-5 col-md-offset-1 col-lg-5 col-lg-offset'>" +
+    $('#firstBattle').append("<div class='col-xs-12 col-sm-12 col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1'>" +
     "<div class='thumbnail marvel'><img id='ultronPoster' alt='...''>" +
       "<div class='caption'><h3 class='title' id='ultron'>" + "</h3><p class='plot' id='plotUltron'></p>" +
       "<h4><b>Critics</b></h4>" +
@@ -90,7 +97,30 @@ $(document).ready(function(){
     $("#shareOne").click(function (){
       var comment = $("#userCommentOne").val();
       $("#userCommentOne").val("");
-      $("#contFirstCom").append("<div class='col-xs-10 col-sm-10 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2> </col-lg-offset-2> com'><p id='usuario'><i class='fa fa-user-circle' aria-hidden='true'></i></p><p>" + comment + "</p></div>" );
+      $("#contFirstCom").append("<div class='col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 com '><p id='usuario'>" + 
+        "<i class='fa fa-user-circle' aria-hidden='true'></i></p><p>" + comment +
+        "</p><div id='icons'><i id='heartOne_" + idHeartOne +
+        "' class='fas fa-heart '></i><i id='bombOne_" + idBombOne +
+        "' class='fas fa-bomb '></i><a id='basura'><i id='trashOne_" + idTrashOne +
+        "' class='fas fa-trash-alt '></i></a></div></div>");
+
+        var idCoraOne = idHeartOne;
+        $("#heartOne_" + idHeartOne).click(function(){
+          $(this).toggleClass('red');
+          $("#bombOne_" + idCoraOne).removeClass('black');
+        });
+        var idBombiOne = idBombOne;
+        $('#bombOne_' + idBombOne).click(function(){
+          $(this).toggleClass('black');
+          $('#heartOne_' + idBombiOne).removeClass('red');
+        });
+        var idBasuritaOne = idTrashOne;
+        $("#trashOne_" + idTrashOne).click(function(){
+          $(this).parent().parent().parent().remove();
+        });
+        idHeartOne++;
+        idBombOne++;
+        idTrashOne++;
     });
 /*
 *segunda batalla, primera película
@@ -148,17 +178,41 @@ $(document).ready(function(){
       "<button id='shareTwo' class='btn btn-info'><i class='fas fa-bomb'></i>Post</button>" +
       "</form></div></div></div>")
 
-    /*$('#firstBattle').append("<div id='firstMarvel' class='col-xs-6 col-sm-6 col-ms-6 col-lg-6>" +
-      "<div class=thumbnail'><img src='" + title(spiderMan)"' alt="...">")*/
 /*
 *funcion comentarios
 */
 
   $("#shareTwo").click(function (){
     var comment = $("#userCommentTwo").val();
-    $("#userCommentUTwo").val("");
-    $("#contSecondCom").append("<div class='col-xs-10 col-sm-10 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2> </col-lg-offset-2> com'><p id='usuario'><i class='fa fa-user-circle' aria-hidden='true'></i></p><p>" + comment + "</p></div>" );
-  });
+    $("#userCommentTwo").val("");
+    $("#contSecondCom").append("<div class='col-xs-10 col-sm-10 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2> </col-lg-offset-2> com'><p id='usuario'>" + 
+      "<i class='fa fa-user-circle' aria-hidden='true'></i></p><p>" + comment +
+      "</p><div id='icons'><i id='heartTwo_" + idHeartTwo +
+      "' class='fas fa-heart '></i><i id='bombTwo_" + idBombTwo +
+      "' class='fas fa-bomb '></i><a id='basura'><i id='trashTwo_" + idTrashTwo +
+      "' class='fas fa-trash-alt '></i></a></div></div>");
+
+      var idCoraTwo = idHeartTwo;
+        $("#heartTwo_" + idHeartTwo).click(function(){
+          $(this).toggleClass('red');
+          $("#bombTwo_" + idCoraTwo).removeClass('black');
+        });
+        var idBombiTwo = idBombTwo;
+        $('#bombTwo_' + idBombTwo).click(function(){
+          $(this).toggleClass('black');
+          $('#heartTwo_' + idBombiTwo).removeClass('red');
+        });
+        var idBasuritaTwo = idTrashTwo;
+        $("#trashTwo_" + idTrashTwo).click(function(){
+          $(this).parent().parent().parent().remove();
+        });
+        idHeartTwo++;
+        idBombTwo++;
+        idTrashTwo++;
+      });
+/*
+*tercera batalla
+*/
 
 });
 
