@@ -176,9 +176,11 @@ h1{
   border: none;
 }
 
+
+
 .uno{
   padding-top: 2em;
-  padding-bottom: 0.8em;
+  padding-bottom: 0.7em;
   background: linear-gradient(to bottom, #e31717 , #e31717 ) ;
   background: linear-gradient(to bottom, #4C4C4C ,#D9D7D7) ;
   background-image: url(../img/fondo2.jpg);
