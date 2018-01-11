@@ -137,6 +137,12 @@ $(document).ready(function(){
       });
     };
 
+    $('#commentsSecond').append("<div class='col-xs-10 col-xs-offset-1 col-sm-10 col-md-10 col-md-offset-1 col-lg-10'>" + 
+      "<div class='widget-area no-padding blank'><div class='status-upload'>" +
+      "<form action='javascript:void(0)'><textarea id='userComment' placeholder='Share your opinion!'></textarea>" +
+      "<button id='share' class='btn btn-info'><i class='fas fa-bomb'></i>Post</button>" +
+      "</form></div></div></div>")
+
     /*$('#firstBattle').append("<div id='firstMarvel' class='col-xs-6 col-sm-6 col-ms-6 col-lg-6>" +
       "<div class=thumbnail'><img src='" + title(spiderMan)"' alt="...">")*/
 /*

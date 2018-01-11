@@ -169,9 +169,14 @@ h1{
 .uno{
   padding-top: 2em;
   padding-bottom: 2em;
-  background: linear-gradient(to bottom, #3C3939, #BEBABA) ;
+  background: linear-gradient(to bottom, #4C4C4C ,#D9D7D7) ;
 }
 
+.dos{
+  padding-bottom: 2em;
+  padding-top: 2em;
+    background: linear-gradient(to bottom, #D9D7D7, #4C4C4C) ;
+}
 .com{
   border-radius: 0.5em;
   background-color: #FFF;
