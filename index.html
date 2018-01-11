@@ -4,12 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>MovieRumble</title>
+  <title>Movie Rumble</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/fonts/fontawesome-free-5.0.2/web-fonts-with-css/css/fontawesome-all.css">
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="assets/css/jquery.modal.css">
-  <link rel="shortcut icon" href="assets/img/logopow.png" type="image/png">
   </head>
 <body>
   <!-- Section Header -->
@@ -36,45 +35,36 @@
             <div class="col-lg-6 col-md-6">
             </div>
             <div class="col-lg-4 col-md-4">
-              <ul class="nav navbar-nav menu-right navright">
-                 <li class="nav-item dropdown leftmenu" cl>
-                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Menu</a>
-                  <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">Año</a><br>
-                  <a class="dropdown-item" href="#">Battle</a><br>
-                   <a class="dropdown-item" href="#">Temática</a><br>
-                  <a class="dropdown-item" href="#">Universo cinematográfico Marvel</a><br>
-                  <a class="dropdown-item" href="#">DC Universe</a>
-                  <div class="dropdown-item" class="leftmenu"></div>
-                </div>
-              </li>
-                <li class="leftmenu" id="login"><a href="#">Login</a></li>
-                <div style="display: none;" id="modal">
-                  <h1>Inicia Sesión</h1>
-                  <input id="txtEmail" class="login-input" type="email" name="email" placeholder="Email">
-                  <br>
-                  <input id="txtPassword" class="login-input" type="password" name="pass" placeholder="Password">
-                  <br>
-                  <button id="btnLogin" class="btn btn-default">Login</button>
-                  <br>
-                  <button id="faceLogin" class="btn btn-default face-btn">Login with Facebook</button>
-                  <p>¿Aún no tienes tu cuenta?</p>
-                  <button class="btn btn-default registrar-btn">Regístrate</button>
-                    
-                  <button id="btnLogout" class="btn btn-default hide">Logout</button>
-                </div>
-                <div id="modal2" style="display: none;">
-                  <input id="txtSignupUser" class="login-input" type="text" name="email" placeholder="Nombre de Usuario">
-                  <input id="txtSignupEmail" class="login-input" type="email" name="email" placeholder="Email">
-                  <input id="txtSignupPassword" class="login-input" type="password" name="pass" placeholder="Password">
-                  <br>
-                  <button id="btnSignUp" class="btn btn-default">Regístrate</button>
-                </div>
-              </ul>
-            </div>
-          </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav>
+              <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menú<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Top Battles</a></li>
+                    <li><a href="#">Marvel Movies</a></li>
+                    <li><a href="#">DC Movies</a></li>
+                  </ul>
+                </li>
+                <li id="login"><a href="#">Login</a></li>
+                  <div style="display: none;" id="modal">
+                    <h1>Inicia Sesión</h1>
+                    <input id="txtEmail" class="login-input" type="email" name="email" placeholder="Email">
+                    <br>
+                    <input id="txtPassword" class="login-input" type="password" name="pass" placeholder="Password">
+                    <br>
+                    <button id="btnLogin" class="btn btn-default">Login</button>
+                    <br>
+                    <button id="faceLogin" class="btn btn-default face-btn">Login with Facebook</button>
+                    <br>
+                    <button id="btnSignUp" class="btn btn-default">Registrarse</button>
+                    <br>
+                    <button id="btnLogout" class="btn btn-default hide">Logout</button>
+                  </div>
+                </ul>
+              </div>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+      </nav>
   </header>
 
 <!-- Video -->
@@ -145,3 +135,4 @@
   <script src="assets/js/firebase.js"></script>
 </body>
 </html>
+

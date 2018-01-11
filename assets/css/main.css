@@ -32,11 +32,6 @@ body {
   margin-top: -2vh;
 }
 
-
-.leftmenu {
-  margin-top: 1.5vh;
-}
-
 .hamb {
   margin-top: -8vh;
 
@@ -222,6 +217,19 @@ h1{
     position: absolute;
     z-index: 1;
   }
+}
+
+.dropdown-menu{
+  background-color:  #4F4C4C;
+}
+.dropdown-menu li{
+  background-color: #4F4C4C;
+  color: #FFF;
+}
+
+.dropdown-menu li a{
+  color: #FFF;
+  font-weight: bolder;
 }
 
 /*
