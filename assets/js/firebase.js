@@ -1,4 +1,6 @@
-  // Initialize Firebase
+  /*
+  * Inicializando Firebase
+  */
   var config = {
     apiKey: "AIzaSyDAkx_-jelOE2xPjZRE9dbsi6QxrVvnnsE",
     authDomain: "movierumble-c0999.firebaseapp.com",
@@ -21,7 +23,7 @@
     var auth = firebase.auth();
 
     var promise= auth.signInWithEmailAndPassword(mail, pass);
-    promise.catch(e=>console.log(e.message));
+    promise.catch(e=>alert(e.message));
 
 });
 
@@ -32,7 +34,8 @@
     var auth = firebase.auth();
 
     var promise = auth.createUserWithEmailAndPassword(mail, pass);
-    promise.catch(e => console.log(e.message));
+    promise.catch(e => alert(e.message));
+    
 
 });
 
@@ -51,7 +54,7 @@ function verify() {
   user.sendEmailVerification()
   .then(function() {
     // Email sent.
-    console.log('enviando correo...');
+    console.log('Enviando correo de verificación...');
   }).catch(function(error) {
   // An error happened.
   console.log(error);
@@ -59,5 +62,12 @@ function verify() {
 };
 
 
+
 /*https://movierumble-c0999.firebaseapp.com/__/auth/action*/
 
+/*
+*La consola muestra un error, esto se debe a que por defecto
+*Firebase nos pide que mostremos la información por medio de la consola
+*y no por un alert, pero nosotros necesitamos mostrarle al usuario
+*si tiene algún error, por ende, fue cambiado este dato
+*/
