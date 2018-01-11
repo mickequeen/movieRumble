@@ -71,20 +71,7 @@ function verify () {
   });
 };
 
-/*
-*Función observador de Firebase, permite mostrar
-*si el usuario se encuentra logueado o no.
-*/
-  function obervador () {
-// agrega listener en tiempo real
-  firebase.auth ().onAuthStateChanged (firebaseUser =>{
-    if (firebaseUser) {
-    $('#btnLogin').val="Estas logueado";
-    }else {
-    $('#btnLogin').val="NO estas logueado";
-    }
-    });
-  }
+
 
 
 
