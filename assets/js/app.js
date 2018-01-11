@@ -87,8 +87,55 @@ $(document).ready(function(){
       "<button id='share' class='btn btn-info'><i class='fas fa-bomb'></i>Post</button>" +
       "</form></div></div></div>")
 
+/*
+*segunda batalla, primera película
+*/
+    $('#secondBattle').append("<div class='col-xs-12 col-sm-12 col-md-5 col-md-offset-1 col-lg-5 col-lg-offset'>" +
+    "<div class='thumbnail marvel'><img id='civilWarPoster' alt='...''>" +
+      "<div class='caption'><h3 class='title' id='civilWar'>" + "</h3><p class='plot' id='plotCivilWar'></p>" +
+      "<h4><b>Critics</b></h4>" +
+      "<p id='civilWarIMDataBase'></p><p id='civilWarRotten'></p>" +
+      "<p> <i class='fa fa-star movie' aria-hidden='true'></i>" +
+      "<i class='fa fa-star movie' aria-hidden='true'></i>" +
+      "<i class='fa fa-star movie' aria-hidden='true'></i>" +
+      "<i class='fa fa-star movie' aria-hidden='true'></i>" +
+      "<i class='fa fa-star movie' aria-hidden='true'></i></p>" +
+      "</div></div></div>")
+   infoCivilWar ();
+    function infoCivilWar (){
+    $.getJSON('http://www.omdbapi.com/?t=captain+america+civil+war&apikey=3a181f1c').then(function(response){
+      $('#civilWar').append('<b>' + (response.Title) + '</b>');
+      $('#plotCivilWar').append(response.Plot);
+      $('#civilWarPoster').attr('src' , response.Poster);
+      $('#civilWarIMDataBase').append("<b>Source: </b>" + (response.Ratings[0].Source) + "; <b>Rating: </b>" + (response.Ratings[0].Value));
+      $('#civilWarRotten').append("<b>Source: </b>" + (response.Ratings[1].Source) + "; <b>Rating: </b>" + (response.Ratings[1].Value));
+      });
+    };
 
+    /*$('#firstBattle').append("<div class='col-xs-12 col-sm-12 col-md-1 col-md-pull-2 col-lg-1 col-lg-pull-2'>" +
+      "<img class='versus' src='assets/img/versus.png' alt='versus'></div>");*/
 
+    $('#secondBattle').append("<div class='col-xs-12 col-sm-12 col-md-5 col-lg-5'>" +
+    "<div class='thumbnail DC'><img id='BvsSPoster' alt='...''>" +
+      "<div class='caption'><h3 class='title' id='BvsS'>" + "</h3><p class='plot' id='plotBvsS'></p>" +
+      "<h4><b>Critics</b></h4>" +
+      "<p id='BvsSIMDataBase'></p><p id='BvsSRotten'></p>" +
+      "<p> <i class='fa fa-star movie' aria-hidden='true'></i>" +
+      "<i class='fa fa-star movie' aria-hidden='true'></i>" +
+      "<i class='fa fa-star movie' aria-hidden='true'></i>" +
+      "<i class='fa fa-star movie' aria-hidden='true'></i>" +
+      "<i class='fa fa-star movie' aria-hidden='true'></i></p>" +
+      "</div></div></div>")
+   infoBatmanVSuperman ();
+    function infoBatmanVSuperman (){
+    $.getJSON('http://www.omdbapi.com/?t=dawn+of+justice&apikey=3a181f1c').then(function(response){
+      $('#BvsS').append('<b>' + (response.Title) + '</b>');
+      $('#plotBvsS').append(response.Plot);
+      $('#BvsSPoster').attr('src' , response.Poster);
+      $('#BvsSIMDataBase').append("<b>Source: </b>" + (response.Ratings[0].Source) + "; <b>Rating: </b>" + (response.Ratings[0].Value));
+      $('#BvsSRotten').append("<b>Source: </b>" + (response.Ratings[1].Source) + "; <b>Rating: </b>" + (response.Ratings[1].Value));
+      });
+    };
 
     /*$('#firstBattle').append("<div id='firstMarvel' class='col-xs-6 col-sm-6 col-ms-6 col-lg-6>" +
       "<div class=thumbnail'><img src='" + title(spiderMan)"' alt="...">")*/
