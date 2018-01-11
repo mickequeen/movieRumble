@@ -41,14 +41,20 @@
     firebase.auth().signOut();
 });
 
+var user = firebase.auth().currentUser;
 
+user.sendEmailVerification().then(function() {
+  // Email sent.
+}).catch(function(error) {
+  // An error happened.
+});
 /*
 // agrega listener en tiempo real
   firebase.auth().onAuthStateChanged(firebaseUser =>{
   if(firebaseUser){
-  $('#txtEstado').value("Estas logueado");
+  $('#txtEstado').val("Estas logueado");
   }else {
-  $('#txtEstado').value("NO Estas logueado");
+  $('#txtEstado').val("NO Estas logueado");
   }
   });
 */
