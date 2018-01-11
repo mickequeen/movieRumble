@@ -1,4 +1,4 @@
-PROYECTO:   MovieRumble v.1.0     
+PROYECTO: MovieRumble v.1.0     
 =============================
 
 
@@ -28,7 +28,9 @@ PRODUCTO:
 =========
 
 
-**“Hecho por y para fanáticos de los cómics“**
+	“Producto hecho por y para fanáticos de las películas de cómics“
+
+![](https://i.imgur.com/qBhdTM7.jpg)
 
 Desarrollamos un producto digital que ayude a los amantes de las casas editoriales Marvel y DC, a obtener información sobre sus producciones cinematográficas. Como los personajes e historias homólogas de cada casa editorial, siempre han generado diferencias entre sus fans, nuestro objetivo es contraponer la información contextualizada y filtrada de cada historia.
 
@@ -38,12 +40,9 @@ Los usuarios tendrán a su alcance, esta información de varias formas:
 
 - **Info de títulos**: Cada título tiene información detallada como: Resumen, personajes, historia, etc.
 
-![](https://i.imgur.com/HV5LcWL.jpg)
 
 
 - **Acceso a críticas de cada cinta**: Cada título tiene acceso a Ranking y Críticas de lugares certificados como _Rotten Tomatoes_ e _Internet Movie Database_.
-
-![Vista críticas de cada cinta] (https://i.imgur.com/a/YOy9m.png)
 
 - **Foro**: Para generar debate y generar las "battles" (discusiones eternas), los usuarios podrán exponer sus ideas. Entre más battles e interacción haya, se generarán más visitas.
 
@@ -85,13 +84,19 @@ Producto web. Versión mobile y escritorio.
 
 Sketches elaborados en el proyecto:
 
-![Idea Inicial] (https://i.imgur.com/a/x8hCX )
 
-![Primera vista Sketch] (https://i.imgur.com/a/zJfmR)
+**SKETCH GENERAL**
 
-![Login Sketch] (https://i.imgur.com/a/pVgZy)
+![](https://i.imgur.com/97fFc8X.jpg)
+
+**SKETCH CON DETALLES**
+
+![](https://i.imgur.com/xKCztYf.jpg)
 
 
+**SKETCH MODAL LOGIN-REGISTRO**
+
+![](https://i.imgur.com/ilkCRxR.jpg)
 
 
 
@@ -101,15 +106,16 @@ Sketches elaborados en el proyecto:
 VISTA GENERAL
 -------------
 
-![Pagina General] (https://i.imgur.com/a/m6Gcy)
-
-Flujo una vez usuario está logueado **"LOG IN"**
-
+VIstas versiones móvil y escritorio
+![](https://i.imgur.com/J0MhP3a.jpg)
 
 
-VISTA USUARIO REGISTRADO
+
+
+
+VISTA USUARIO REGISTRADO  (**"LOG IN"**)
 ------------------------
-![Menu Login] (https://i.imgur.com/a/PGOgO)
+![](https://i.imgur.com/VBjoBWU.jpg)
 
 Ya ingresado a su sesión, el usuario podrá acceder a la funcionalidad completa de la página:
 - Información seleccionada sobre las diferentes "Battles" entre películas, año de realización, reseña del título (vs).
@@ -121,9 +127,20 @@ Ya ingresado a su sesión, el usuario podrá acceder a la funcionalidad completa
 
 VISTA USUARIO REGISTRADO CON UTILIDADES DEL PRODUCTO
 ----------------------------------------------------
-![Opciones de usuario] (https://i.imgur.com/a/FswX3)
 
-![Comentarios] (https://i.imgur.com/a/tM3fS)
+	**Menú opciones desplegable**
+
+
+
+
+![](https://i.imgur.com/hBwgYDb.jpg)
+
+
+
+
+	**Comentar en foro**  (Generar battles entre usuarios)
+
+![](https://i.imgur.com/xr9wWxE.jpg)
 
 
 
@@ -157,10 +174,3 @@ DIVISION DEL TRABAJO
 - Elaboración de README.
 
 **(Enero de 2017)**
-
-
-
-
-
-
-
