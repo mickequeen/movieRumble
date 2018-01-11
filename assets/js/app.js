@@ -171,6 +171,3 @@ $(document).ready(function(){
   });
   }*/
 
-
-
-
