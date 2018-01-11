@@ -51,7 +51,9 @@ Los usuarios tendrán a su alcance, esta información de varias formas:
 
 
 
-# COMO VALIDAMOS EL PRODUCTO:  “Hecho por y para fanáticos de los cómics“
+# COMO VALIDAMOS EL PRODUCTO:
+
+
 Las películas de héroes enmascarados han estado ligadas al cine desde hace mucho tiempo. Muchos cineastas basaron su narrativa en historietas, pero fueron películas como Superman o Batman y más recientemente Spider-man o el Caballero oscuro, las que revelaron la magnitud del dinero que se podía hacer con este tipo de proyectos si se ejecutaban de la manera correcta. Las películas de superhéroes han despertado a un nuevo tipo de consumidor que se ve satisfecho tras presenciar la película en el cine, tener los cómics en casa, series de televisión y la especulación en internet.
 
 Entonces, ya un mercado existente, con una necesidad concreta y es un **nicho rentable**.
