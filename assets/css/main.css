@@ -147,6 +147,15 @@ h1{
   .login-input{
   width: 80%;
   }
+
+#btnLogin,
+#btnSignUp,
+.registrar-btn{
+  margin-top: 2%;
+  font-weight: bold;
+  width: 65%;
+}
+
 }
 
 

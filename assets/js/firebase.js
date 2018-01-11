@@ -10,6 +10,8 @@
   firebase.initializeApp(config);
 
 
+
+
   /*
   *Evento de click al loguearse
   */
@@ -41,23 +43,21 @@
     firebase.auth().signOut();
 });
 
-var user = firebase.auth().currentUser;
-
-user.sendEmailVerification().then(function() {
-  // Email sent.
-}).catch(function(error) {
-  // An error happened.
-});
 /*
-// agrega listener en tiempo real
-  firebase.auth().onAuthStateChanged(firebaseUser =>{
-  if(firebaseUser){
-  $('#txtEstado').val("Estas logueado");
-  }else {
-  $('#txtEstado').val("NO Estas logueado");
-  }
-  });
+*Función para enviar correo de verificación al usuario registrado
 */
+function verify() {
+  var user = firebase.auth().currentUser;
+  user.sendEmailVerification()
+  .then(function() {
+    // Email sent.
+    console.log('enviando correo...');
+  }).catch(function(error) {
+  // An error happened.
+  console.log(error);
+  });
+};
 
 
+/*https://movierumble-c0999.firebaseapp.com/__/auth/action*/
 
