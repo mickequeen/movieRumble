@@ -34,7 +34,10 @@ body {
 
 .hamb {
   margin-top: -8vh;
+}
 
+.dropdown-menu{
+  background-color: #000;
 }
 
 /*
@@ -173,13 +176,13 @@ h1{
 .uno{
   padding-top: 2em;
   padding-bottom: 2em;
-  background: linear-gradient(to bottom, #4C4C4C ,#D9D7D7) ;
+  background: linear-gradient(to bottom, #e31717 , #e31717 ) ;
 }
 
 .dos{
   padding-bottom: 2em;
   padding-top: 2em;
-    background: linear-gradient(to bottom, #D9D7D7, #4C4C4C) ;
+    background: linear-gradient(to bottom, #e31717 , #e31717) ;
 }
 .com{
   border-radius: 0.5em;
