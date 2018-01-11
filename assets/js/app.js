@@ -185,7 +185,7 @@ $(document).ready(function(){
   $("#shareTwo").click(function (){
     var comment = $("#userCommentTwo").val();
     $("#userCommentTwo").val("");
-    $("#contSecondCom").append("<div class='col-xs-10 col-sm-10 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2> </col-lg-offset-2> com'><p id='usuario'>" + 
+    $("#contSecondCom").append("<div class='col-xs-10 col-sm-10 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 com'><p id='usuario'>" + 
       "<i class='fa fa-user-circle' aria-hidden='true'></i></p><p>" + comment +
       "</p><div id='icons'><i id='heartTwo_" + idHeartTwo +
       "' class='fas fa-heart '></i><i id='bombTwo_" + idBombTwo +
