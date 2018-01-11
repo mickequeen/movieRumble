@@ -79,17 +79,32 @@
 
 <!-- Video -->
 <section class='container-fluid'>
-  <div class="row ">
+  <div class="row">
       <video class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="video" src="assets/video/MarvelDcc.mp4" muted autoplay loop poster alt="">
       </video>
 </section>
 
+
 <!--section dos columnas para cada seccion-->
 <!-- datos 1-->
+<section>
 <div class="container-fluid datos">
   <div class="row uno">
     <div id="firstBattle">
-
+    <!-- contenido de primera batalla generada por jquery -->
+    </div>
+    <div id="contFirstCom">
+      
+    </div>
+    <div id="commentsFirst">
+      
+    </div>
+  </div>
+  
+  <div class="row dos">
+    <div id="secondBattle">
+      <!-- contenido 2da batalla generada por jquery -->
+    </div>
   </div>
 </div>
 
@@ -99,36 +114,7 @@
 <!--Comemtarios-->
 
 <footer>
- <div class="container">
-    <div class="col-xs-12 col-sm-12 col-md-12">
-      <ul class="nav nav-tabs">
-        <li class="active"><a data-toggle="tab" href="#com" class="green">Comentarios</a></li>
-      </ul>
 
-      <div class="tab-content">
-        <div id="com" class="tab-pane fade in active white">
-          <form action="javascript:comm()">
-          <div class="form-group col-xs-12 col-sm-12 col-md-12">
-          <textarea class="form-control" rows="5" id="comment"></textarea>
-          </div>
-        <button type="button" class="btn btn-primary enviar" id="btn">Enviar</button>
-         </form>
-        </div>
-       
-<!-- visualizacion de comentarios-->
-        <div class="container">
-            <div class="row">
-              <div class="col-xs-12 col-sm-12 col-md-12">
-                <div class="container-comments" id="post">
-                  <span id="usuario" ><i class="fa fa-user-circle" aria-hidden="true"></i></span>
-                </div>
-              </div>
-            </div>
-          </div>
-      <!--fin de comentarios-->
-      </div>
-    </div>
-  </div>
 </footer>
   <!-- Firebase -->
   <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>

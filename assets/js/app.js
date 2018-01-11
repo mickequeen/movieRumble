@@ -78,6 +78,15 @@ $(document).ready(function(){
       $('#jLeagueRotten').append("<b>Source: </b>" + (response.Ratings[1].Source) + "; <b>Rating: </b>" + (response.Ratings[1].Value));
       });
     }
+/*
+*sección comentarios primera batalla
+*/
+    $('#commentsFirst').append("<div class='col-xs-10 col-xs-offset-1 col-sm-10 col-md-10 col-md-offset-1 col-lg-10'>" + 
+      "<div class='widget-area no-padding blank'><div class='status-upload'>" +
+      "<form action='javascript:void(0)'><textarea id='userComment' placeholder='Share your opinion!'></textarea>" +
+      "<button id='share' class='btn btn-info'><i class='fas fa-bomb'></i>Post</button>" +
+      "</form></div></div></div>")
+
 
 
 
@@ -87,9 +96,10 @@ $(document).ready(function(){
 *funcion comentarios
 */
 
-  $("#btn").click(function comm(){
-    var comment = $("#comment").val();
-    $("#post").append("<span id='usuario'><i class='fa fa-user-circle' aria-hidden='true'></i></span>" + comment + "</br>"+"</div>" );
+  $("#share").click(function (){
+    var comment = $("#userComment").val();
+    $("#userComment").val("");
+    $("#contFirstCom").append("<div class='col-xs-10 col-sm-10 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2> </col-lg-offset-2> com'><p id='usuario'><i class='fa fa-user-circle' aria-hidden='true'></i></p><p>" + comment + "</p></div>" );
   });
 
 });
