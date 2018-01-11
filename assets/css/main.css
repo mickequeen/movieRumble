@@ -189,7 +189,7 @@ h1{
 
 .dos{
   padding-bottom: 2em;
-  padding-top: 2em;
+  padding-top: 0.8em;
   background: linear-gradient(to bottom, #e31717 , #e31717) ;
   background: linear-gradient(to bottom, #D9D7D7, #4C4C4C) ;
   background-image: url(../img/fondo1.jpg);
