@@ -9,53 +9,49 @@
   };
   firebase.initializeApp(config);
 
+
   /*
-  *Autentificación con email y password
+  *Evento de click al loguearse
   */
-  const auth = firebase.auth();
+  $('#btnLogin').click(function(){
+    var mail = $("#txtEmail").val();
+    var pass = $("#txtPassword").val();
+    var auth = firebase.auth();
 
-  auth.signInWithEmailAndPassword (email, pass);
+    var promise= auth.signInWithEmailAndPassword(mail, pass);
+    promise.catch(e=>console.log(e.message));
 
-  auth.createUserWithEmailAndPassword (email, pass);
+});
 
-  auth.onAuthStateChanged (firebaseUser =>{});
+  $('#btnSignUp').click(function(){
+    var user = $("#txtSignupUser")
+    var mail = $("#txtSignupEmail").val();
+    var pass = $("#txtSignupPassword").val();
+    var auth = firebase.auth();
 
-  const txtEmail = document.getElementById('#txtEmail');
-  const txtPassword = document.getElementById('#txtPassword');
-  const btnLogin = document.getElementById('#btnLogin');
-  const btnSignUp = document.getElementById('#btnSignUp');
-  const btnLogout = document.getElementById('#btnLogout');
+    var promise = auth.createUserWithEmailAndPassword(mail, pass);
+    promise.catch(e => console.log(e.message));
 
+});
 
-  btnLogin.addEventListener('click' , e => {
-  
   /*
-  *Obtener email y pass
+  *Para desloguearse
   */
-  const email = txtEmail.value;
-  const pass = txtPassword.value;
-  const auth = firebase.auth();
-  
-  /*
-  *Sign in
-  */
-  const promise = auth.signInWithEmailAndPassword (email, pass);
-  promise.catch(e => console.log(e.message));
+  $('#btnLogout').click(function(){
+    firebase.auth().signOut();
+});
+
+
+/*
+// agrega listener en tiempo real
+  firebase.auth().onAuthStateChanged(firebaseUser =>{
+  if(firebaseUser){
+  $('#txtEstado').value("Estas logueado");
+  }else {
+  $('#txtEstado').value("NO Estas logueado");
+  }
   });
+*/
 
 
-  btnSignUp.addEventListener('click' , e => {
-  
-  /*
-  *Obtener email y pass
-  */
-  const email = txtEmail.value;
-  const pass = txtPassword.value;
-  const auth = firebase.auth();
-  
-  /*
-  *Sign up
-  */
-  const promise = auth.createUserWithEmailAndPassword (email, pass);
-  promise.catch(e => console.log(e.message));
-  });
+
