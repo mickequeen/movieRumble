@@ -14,15 +14,44 @@
   *Evento de click al loguearse
   */
   $('#btnLogin').click(function(){
-  var mail = $("#txtEmail").val();
-  var pass = $("#txtPassword").val();
-  var auth = firebase.auth();
+    var mail = $("#txtEmail").val();
+    var pass = $("#txtPassword").val();
+    var auth = firebase.auth();
 
-  var promise= auth.signInWithEmailAndPassword(mail, pass);
-  promise.catch(e=>console.log(e.message));
+    var promise= auth.signInWithEmailAndPassword(mail, pass);
+    promise.catch(e=>console.log(e.message));
 
 });
 
+  $('#btnSignUp').click(function(){
+    var user = $("#txtSignupUser")
+    var mail = $("#txtSignupEmail").val();
+    var pass = $("#txtSignupPassword").val();
+    var auth = firebase.auth();
+
+    var promise = auth.createUserWithEmailAndPassword(mail, pass);
+    promise.catch(e => console.log(e.message));
+
+});
+
+  /*
+  *Para desloguearse
+  */
+  $('#btnLogout').click(function(){
+    firebase.auth().signOut();
+});
+
+
+/*
+// agrega listener en tiempo real
+  firebase.auth().onAuthStateChanged(firebaseUser =>{
+  if(firebaseUser){
+  $('#txtEstado').value("Estas logueado");
+  }else {
+  $('#txtEstado').value("NO Estas logueado");
+  }
+  });
+*/
 
 
 

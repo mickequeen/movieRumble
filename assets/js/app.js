@@ -12,10 +12,20 @@
 
 
 $(document).ready(function(){
-
-  $ ('#login').click(function(){
+  /*
+  *Modal Login
+  */
+  $ ('#login').click (function(){
     $ ('#modal').modal ();
   });
+
+  /*
+  *Modal Registrate
+  */
+  $ ('.registrar-btn').click (function(){
+    $ ('#modal2').modal ();
+  });
+
 
 /*
 *thumbnail avengers

@@ -112,7 +112,8 @@ h1{
 }
 
 #btnLogin,
-#btnSignUp{
+#btnSignUp,
+.registrar-btn{
   margin-top: 2%;
   font-weight: bold;
   width: 35%;
@@ -123,6 +124,7 @@ h1{
   color: #fff;
   text-align:center;
   margin-top: 2%;
+  font-weight: bold;
 }
 
 .caja{
