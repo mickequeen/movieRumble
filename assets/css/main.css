@@ -39,6 +39,10 @@ body {
   background-color: #000;
 }
 
+.centrar {
+  margin-top: 2vh;
+}
+
 /*
 *Estilos Video
 */
@@ -174,7 +178,7 @@ h1{
 
 .uno{
   padding-top: 2em;
-  padding-bottom: 2em;
+  padding-bottom: 0.8em;
   background: linear-gradient(to bottom, #e31717 , #e31717 ) ;
   background: linear-gradient(to bottom, #4C4C4C ,#D9D7D7) ;
   background-image: url(../img/fondo2.jpg);
