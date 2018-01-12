@@ -136,6 +136,8 @@ h1{
 .fa-instagram,
 .fa-twitter-square{
   padding: 1%;
+  color: #fff;
+  font-size: 30px;
 }
 
 .fa-facebook-square:hover,
@@ -211,12 +213,8 @@ h1{
 
 .foot{
  background-color: #231E1E;
+}
 
-}
-.foot1 span{
-  color:#fff;
-  font-size: 30px;
-}
 
 .foot p{
   color:#fff;
