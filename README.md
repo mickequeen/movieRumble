@@ -1,4 +1,4 @@
-PROYECTO: MovieRumble v.1.0     
+PROYECTO: MovieRumble -Versión Beta-    
 =============================
 
 
@@ -30,7 +30,7 @@ PRODUCTO:
 
 	“Producto hecho por y para fanáticos de las películas de cómics“
 
-![](https://i.imgur.com/qBhdTM7.jpg)
+![](https://i.imgur.com/XfaR2UN.jpg)
 
 Desarrollamos un producto digital que ayude a los amantes de las casas editoriales Marvel y DC, a obtener información sobre sus producciones cinematográficas. Como los personajes e historias homólogas de cada casa editorial, siempre han generado diferencias entre sus fans, nuestro objetivo es contraponer la información contextualizada y filtrada de cada historia.
 
@@ -114,7 +114,7 @@ VISTA GENERAL
 -------------
 
 VIstas versiones móvil y escritorio
-![](https://i.imgur.com/J0MhP3a.jpg)
+![](https://i.imgur.com/KWdMN3W.jpg)
 
 
 
@@ -122,7 +122,7 @@ VIstas versiones móvil y escritorio
 
 VISTA USUARIO REGISTRADO  (**"LOG IN"**)
 ------------------------
-![](https://i.imgur.com/VBjoBWU.jpg)
+![](https://i.imgur.com/QMvlVcM.jpg)
 
 Ya ingresado a su sesión, el usuario podrá acceder a la funcionalidad completa de la página:
 - Información seleccionada sobre las diferentes "Battles" entre películas, año de realización, reseña del título (vs).
@@ -135,19 +135,12 @@ Ya ingresado a su sesión, el usuario podrá acceder a la funcionalidad completa
 VISTA USUARIO REGISTRADO CON UTILIDADES DEL PRODUCTO
 ----------------------------------------------------
 
-	**Menú opciones desplegable**
+
+**Comentar en foro**  (Generar battles entre usuarios)
 
 
+![](https://i.imgur.com/883usb8.jpg)
 
-
-![](https://i.imgur.com/hBwgYDb.jpg)
-
-
-
-
-	**Comentar en foro**  (Generar battles entre usuarios)
-
-![](https://i.imgur.com/xr9wWxE.jpg)
 
 
 
@@ -166,10 +159,12 @@ DIVISION DEL TRABAJO
 
 
 **Carol Martínez:**
-- Implementación y desarrollo de API OMDd (Base de Datos)
+- Implementación y desarrollo de API OMDd (Base de Datos).
+- Funcionalidades con Javascript y Jquery.
 
 **Lorena Palominos:**
 - Implementación y desarrollo de Firebase (Plataforma para el desarrollo de Aplicaciones) y Modal de Login.
+- Diseño
 
 ## PERFIL UX DESIGNER ##
 
@@ -180,11 +175,39 @@ DIVISION DEL TRABAJO
 - Investigación de producto.
 - Elaboración de README.
 
+## LOGROS EN DISEÑO ##
+
+-  Diseño responsive.
+-  Diseño simple, llamativo, acorde al tema principal (Comics-Películas).  Ej:  Inspiración para Geeks, en Street Fighter, Mortal Combat.
+-  En conformidad con el objetivo general  planteado como grupo.
+
+## LOGROS FUNCIONALIDAD GENERAL ##
+
+-  Desarrollo API OMDd.  Extracción de resumen de la película en inglés, extracción de calificacion objetiva, hecha por dos referencias del tema:  Rotten Tomatoes y  Internet MOvies Database. (Bases de datos reales).
+
+-  Usuario puede realizar comentario en cada película.
+
+-  Al hacer comentario se registra la hora real.
+
+- Emociones:  Usuario puede reaccionar (Iconos corazón y bomba), inclusive puede deshacer el comentario (Icono basurero).
+
+-  Contenido creado directamente desde Javascript, por lo que reducimos el tiempo de carga, comparado con las páginas convencionales.
+
+
+- En cuanto a Firebase, se logró que los usuarios puedan registrarse, y esos registros se guarden en la base de datos.
+
+## HERRAMIENTAS TECNICAS UTILIZADAS ##
+
+-  HTML 5
+-  CSS
+-  Javascript
+-  Jquery
+-  Bootstrap
+-  API OMDd
+-  Illustrator
+-  Fontawesome
+
+
 **(Enero de 2017)**
-
-
-
-
-
 
 
