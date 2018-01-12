@@ -189,9 +189,9 @@ h1{
  @media only screen and (max-width:768px){ 
   #im{
   position:relative;
-  width: 200px;
-  bottom: 120px;
-  left:150px;
+  width: 250px;
+  bottom: 100px;
+  left:200px;
   }
   
   }
@@ -202,8 +202,8 @@ h1{
   #im{
   position: relative;
   width: 200px;
-  bottom: 60px;
-  left:70px;
+  bottom: 70px;
+  left:80px;
   }
   
   }
