@@ -200,6 +200,9 @@ left: 400px;
   border: none;
 }
 
+.img-responsive{
+  padding-left: 15%;
+}
 
 
 .uno, .tres, .cinco{
@@ -266,6 +269,9 @@ left: 400px;
 @media (max-width: 670px) {
   .nn2{
     margin-left:0px;
+  }
+  .img-responsive{
+    padding-left: 0em;
   }
 }
 
