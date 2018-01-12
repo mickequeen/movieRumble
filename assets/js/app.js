@@ -510,6 +510,101 @@ $(document).ready(function(){
     idBombFive++;
     idTrashFive++;
   });
+/*
+*sexta batalla, primera peli
+*/
+    $('#sixthBattle').append("<div class='col-xs-12 col-sm-12 col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1'>" +
+    "<div class='thumbnail marvel'><img id='ThorPoster' alt='...''>" +
+      "<div class='caption'><h3 class='title' id='Thor'>" + "</h3><p class='plot' id='plotThor'></p>" +
+      "<h4><b>Critics</b></h4>" +
+      "<p id='ThorIMDataBase'></p><p id='ThorRotten'></p>" +
+      "<p> <i class='fa fa-star movie' aria-hidden='true'></i>" +
+      "<i class='fa fa-star movie' aria-hidden='true'></i>" +
+      "<i class='fa fa-star movie' aria-hidden='true'></i>" +
+      "<i class='fa fa-star movie' aria-hidden='true'></i>" +
+      "<i class='fa fa-star movie' aria-hidden='true'></i></p>" +
+      "</div></div></div>")
+   infoThor ();
+    function infoThor (){
+    $.getJSON('http://www.omdbapi.com/?t=thor&apikey=3a181f1c').then(function(response){
+      $('#Thor').append('<b>' + (response.Title) + '</b>');
+      $('#plotThor').append(response.Plot);
+      $('#ThorPoster').attr('src' , response.Poster);
+      $('#ThorIMDataBase').append("<b>Source: </b>" + (response.Ratings[0].Source) + "; <b>Rating: </b>" + (response.Ratings[0].Value));
+      $('#ThorRotten').append("<b>Source: </b>" + (response.Ratings[1].Source) + "; <b>Rating: </b>" + (response.Ratings[1].Value));
+      });
+    };
+
+    $('#sixthBattle').append("<div class='col-xs-12 col-sm-12 col-md-1 col-md-pull-2 col-lg-1 col-lg-pull-2'>" +
+      "<img class='versus' src='assets/img/versus.png' alt='versus'></div>");
+
+
+    $('#sixthBattle').append("<div class='col-xs-12 col-sm-12 col-md-5 col-md-pull-1 col-lg-5 col-lg-pull-1'>" +
+    "<div class='thumbnail DC'><img id='manOfSteelPoster' alt='...''>" +
+      "<div class='caption'><h3 class='title' id='manOfSteel'>" + "</h3><p class='plot' id='plotmanOfSteel'></p>" +
+      "<h4><b>Critics</b></h4>" +
+      "<p id='manOfSteelIMDataBase'></p><p id='manOfSteelRotten'></p>" +
+      "<p> <i class='fa fa-star movie' aria-hidden='true'></i>" +
+      "<i class='fa fa-star movie' aria-hidden='true'></i>" +
+      "<i class='fa fa-star movie' aria-hidden='true'></i>" +
+      "<i class='fa fa-star movie' aria-hidden='true'></i>" +
+      "<i class='fa fa-star movie' aria-hidden='true'></i></p>" +
+      "</div></div></div>")
+   infomanOfSteel ();
+    function infomanOfSteel (){
+    $.getJSON('http://www.omdbapi.com/?t=man+of+steel&apikey=3a181f1c').then(function(response){
+      $('#manOfSteel').append('<b>' + (response.Title) + '</b>');
+      $('#plotmanOfSteel').append(response.Plot);
+      $('#manOfSteelPoster').attr('src' , response.Poster);
+      $('#manOfSteelIMDataBase').append("<b>Source: </b>" + (response.Ratings[0].Source) + "; <b>Rating: </b>" + (response.Ratings[0].Value));
+      $('#manOfSteelRotten').append("<b>Source: </b>" + (response.Ratings[1].Source) + "; <b>Rating: </b>" + (response.Ratings[1].Value));
+      });
+    };
+
+    $('#commentsSixth').append("<div class='col-xs-10 col-xs-offset-1 col-sm-10 col-md-10 col-md-offset-1 col-lg-10'>" + 
+      "<div class='widget-area no-padding blank'>" +
+      "<div class='input-group'><span class='input-group-addon' id='basic-addon1'><i class='fas fa-user'></i></span>" +
+      "<input id='userNameSix' type='text' class='form-control' placeholder='Username' aria-describedby='basic-addon1'></div>" +
+      "<div class='status-upload'>" +
+      "<form action='javascript:void(0)'><textarea id='userCommentSix' placeholder='Share your opinion!'></textarea>" +
+      "<button id='shareSix' class='btn btn-info'><i class='fas fa-bomb'></i>Post</button>" +
+      "</form></div></div></div>")
+
+/*
+*funcion comentarios
+*/
+
+  $("#shareSix").click(function (){
+    var comment = $("#userCommentSix").val();
+    var userSix = $("#userNameSix").val();
+    $("#userNameSix").val("");
+    $("#userCommentSix").val("");
+    var timePost = (new Date().getHours() + ": " + new Date().getMinutes());
+    $("#contSixthCom").append("<div class='col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 com'><p id='usuario'>" + 
+      "<i class='fa fa-user-circle' aria-hidden='true'></i><b>" + userSix + '</b> Posted at: ' + timePost + "</p><p>" + comment +
+      "</p><div id='icons'><i id='heartFive_" + idHeartFive +
+      "' class='fas fa-heart '></i><i id='bombFive_" + idBombFive +
+      "' class='fas fa-bomb '></i><a id='basura'><i id='trashFive_" + idTrashFive +
+      "' class='fas fa-trash-alt '></i></a></div></div>");
+
+  var idCoraSix = idHeartSix;
+    $("#heartSix_" + idHeartSix).click(function(){
+      $(this).toggleClass('red');
+      $("#bombSix_" + idCoraSix).removeClass('black');
+    });
+    var idBombiSix = idBombSix;
+    $('#bombSix_' + idBombSix).click(function(){
+      $(this).toggleClass('black');
+      $('#heartSix_' + idBombiSix).removeClass('red');
+    });
+    var idBasuritaSix = idTrashSix;
+    $("#trashSix_" + idTrashSix).click(function(){
+      $(this).parent().parent().parent().remove();
+    });
+    idHeartSix++;
+    idBombSix++;
+    idTrashSix++;
+  });
 });
 
 
