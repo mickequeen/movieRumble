@@ -17,7 +17,7 @@ var idTrashFive = 0;
 var idHeartSix = 0;
 var idBombSix = 0;
 var idTrashSix = 0;
-  var Thor = 'http://www.omdbapi.com/?t=thor&apikey=3a181f1c';
+
 
 
 $(document).ready(function(){
@@ -241,7 +241,7 @@ $(document).ready(function(){
       "</div></div></div>")
    infoironMan ();
     function infoironMan (){
-    $.getJSON('http://www.omdbapi.com/?t=iron+man&apikey=3a181f1c').then(function(response){
+    $.getJSON('https://www.omdbapi.com/?t=iron+man&apikey=3a181f1c').then(function(response){
       $('#ironMan').append('<b>' + (response.Title) + '</b>');
       $('#plotironMan').append(response.Plot);
       $('#ironManPoster').attr('src' , response.Poster);
@@ -267,7 +267,7 @@ $(document).ready(function(){
       "</div></div></div>")
    infoBatmanBegins ();
     function infoBatmanBegins (){
-    $.getJSON('http://www.omdbapi.com/?t=batman+begins&apikey=3a181f1c').then(function(response){
+    $.getJSON('https://www.omdbapi.com/?t=batman+begins&apikey=3a181f1c').then(function(response){
       $('#batmanBegins').append('<b>' + (response.Title) + '</b>');
       $('#plotbatmanBegins').append(response.Plot);
       $('#batmanBeginsPoster').attr('src' , response.Poster);
@@ -336,7 +336,7 @@ $(document).ready(function(){
       "</div></div></div>")
    infoironMan2 ();
     function infoironMan2 (){
-    $.getJSON('http://www.omdbapi.com/?t=iron+man+2&apikey=3a181f1c').then(function(response){
+    $.getJSON('https://www.omdbapi.com/?t=iron+man+2&apikey=3a181f1c').then(function(response){
       $('#ironMan2').append('<b>' + (response.Title) + '</b>');
       $('#plotironMan2').append(response.Plot);
       $('#ironMan2Poster').attr('src' , response.Poster);
@@ -362,7 +362,7 @@ $(document).ready(function(){
       "</div></div></div>")
    infodarkKnight ();
     function infodarkKnight (){
-    $.getJSON('http://www.omdbapi.com/?t=the+dark+knight&apikey=3a181f1c').then(function(response){
+    $.getJSON('https://www.omdbapi.com/?t=the+dark+knight&apikey=3a181f1c').then(function(response){
       $('#darkKnight').append('<b>' + (response.Title) + '</b>');
       $('#plotdarkKnight').append(response.Plot);
       $('#darkKnightPoster').attr('src' , response.Poster);
@@ -431,7 +431,7 @@ $(document).ready(function(){
       "</div></div></div>")
    infoironMan3 ();
     function infoironMan3 (){
-    $.getJSON('http://www.omdbapi.com/?t=iron+man+3&apikey=3a181f1c').then(function(response){
+    $.getJSON('https://www.omdbapi.com/?t=iron+man+3&apikey=3a181f1c').then(function(response){
       $('#ironMan3').append('<b>' + (response.Title) + '</b>');
       $('#plotironMan3').append(response.Plot);
       $('#ironMan3Poster').attr('src' , response.Poster);
@@ -457,7 +457,7 @@ $(document).ready(function(){
       "</div></div></div>")
    infodarkKnightRises ();
     function infodarkKnightRises (){
-    $.getJSON('http://www.omdbapi.com/?t=the+dark+knight+rises&apikey=3a181f1c').then(function(response){
+    $.getJSON('https://www.omdbapi.com/?t=the+dark+knight+rises&apikey=3a181f1c').then(function(response){
       $('#darkKnightRises').append('<b>' + (response.Title) + '</b>');
       $('#plotdarkKnightRises').append(response.Plot);
       $('#darkKnightRisesPoster').attr('src' , response.Poster);
@@ -526,7 +526,7 @@ $(document).ready(function(){
       "</div></div></div>")
    infoThor ();
     function infoThor (){
-    $.getJSON('http://www.omdbapi.com/?t=thor&apikey=3a181f1c').then(function(response){
+    $.getJSON('https://www.omdbapi.com/?t=thor&apikey=3a181f1c').then(function(response){
       $('#Thor').append('<b>' + (response.Title) + '</b>');
       $('#plotThor').append(response.Plot);
       $('#ThorPoster').attr('src' , response.Poster);
@@ -552,7 +552,7 @@ $(document).ready(function(){
       "</div></div></div>")
    infomanOfSteel ();
     function infomanOfSteel (){
-    $.getJSON('http://www.omdbapi.com/?t=man+of+steel&apikey=3a181f1c').then(function(response){
+    $.getJSON('https://www.omdbapi.com/?t=man+of+steel&apikey=3a181f1c').then(function(response){
       $('#manOfSteel').append('<b>' + (response.Title) + '</b>');
       $('#plotmanOfSteel').append(response.Plot);
       $('#manOfSteelPoster').attr('src' , response.Poster);
