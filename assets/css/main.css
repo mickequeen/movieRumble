@@ -64,7 +64,7 @@ body {
 }
 
 /*
-*Seccion  Datos 
+*Sección Datos
 */
 
 .datos{
@@ -156,6 +156,24 @@ h1{
   cursor: pointer;
 }
 
+.last{
+  margin-left: 9%;
+  width: 900px;
+}
+
+.navbar-inverse .navbar-collapse, 
+.navbar-inverse .navbar-form {
+  border-color: #101010;
+  background: #292828;
+}
+
+@media (max-width: 670px){
+.img-responsive {
+  padding-left: 0em;
+  margin-left: 1%;
+  }
+}
+
 @media only screen and (max-width: 640px){
   .btn-default{
   margin-top: 2%;
@@ -174,6 +192,7 @@ h1{
   width: 65%;
   }
 }
+
 /*
 *Version Laptop
 */
@@ -215,13 +234,9 @@ h1{
   bottom: 70px;
   left:80px;
   }
-  
   }
 
-.last{
-  margin-left: 9%;
-  width: 900px;
-}
+
 .marvel{
   background: linear-gradient(to bottom right,#FD5252 , #FFF);
 }
