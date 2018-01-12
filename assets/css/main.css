@@ -191,6 +191,7 @@ h1{
 .log{
   height:70px;
 }
+
 /*
 *Version Tablet
 */
@@ -200,7 +201,7 @@ h1{
   position:relative;
   width: 250px;
   bottom: 100px;
-  left:200px;
+  left:100px;
   }
   
   }
