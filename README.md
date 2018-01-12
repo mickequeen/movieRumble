@@ -46,9 +46,6 @@ Los usuarios tendrán a su alcance, esta información de varias formas:
 
 - **Foro**: Para generar debate y generar las "battles" (discusiones eternas), los usuarios podrán exponer sus ideas. Entre más battles e interacción haya, se generarán más visitas.
 
-- **Calificación de películas**: Usuarios podrán exponer sus emociones, por medio de la calificación otorgada a cada título o cinta.
-
-
 
 
 # COMO VALIDAMOS EL PRODUCTO:
@@ -71,7 +68,7 @@ La interacción irá por doble vía, el usuario podrá obtener nueva informació
 
 Proveeremos la información más completa de cada producción cinematográfica, accediendo a ella con filtros rápidos.
 
-**Destacar emociones**: El usuario podrá manifestar sus emociones calificando las películas (puntuación estrellas) y además, aportando información adicional en la herramienta de foro.
+**Destacar emociones**: El usuario podrá manifestar sus emociones calificando los comentarios de los demás y además, aportando información adicional en la herramienta de foro.
 
 
 
@@ -209,5 +206,3 @@ DIVISION DEL TRABAJO
 
 
 **(Enero de 2017)**
-
-
