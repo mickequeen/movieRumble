@@ -14,9 +14,9 @@ var idTrashFour = 0;
 var idHeartFive = 0;
 var idBombFive = 0;
 var idTrashFive = 0;
-
-  var ironMan2 = 'http://www.omdbapi.com/?t=iron+man+2&apikey=3a181f1c';
-  var ironMan3 = 'http://www.omdbapi.com/?t=iron+man+3&apikey=3a181f1c';
+var idHeartSix = 0;
+var idBombSix = 0;
+var idTrashSix = 0;
   var Thor = 'http://www.omdbapi.com/?t=thor&apikey=3a181f1c';
 
 
@@ -89,18 +89,23 @@ $(document).ready(function(){
 /*
 *sección comentarios primera batalla
 */
-    $('#commentsFirst').append("<div class='col-xs-10 col-xs-offset-1 col-sm-10 col-md-10 col-md-offset-1 col-lg-10'>" + 
-      "<div class='widget-area no-padding blank'><div class='status-upload'>" +
+    $('#commentsFirst').append("<div class='col-xs-10 col-xs-offset-1 col-sm-10 col-md-10 col-md-offset-1 col-lg-10'>" +
+      "<div class='widget-area no-padding blank'>" +
+      "<div class='input-group'><span class='input-group-addon' id='basic-addon1'><i class='fas fa-user'></i></span>" +
+      "<input id='userNameOne' type='text' class='form-control' placeholder='Username' aria-describedby='basic-addon1'></div>" +
+      "<div class='status-upload'>" +
       "<form action='javascript:void(0)'><textarea id='userCommentOne' placeholder='Share your opinion!'></textarea>" +
       "<button id='shareOne' class='btn btn-info'><i class='fas fa-bomb'></i>Post</button>" +
       "</form></div></div></div>");
 
     $("#shareOne").click(function (){
       var comment = $("#userCommentOne").val();
+      var userOne = $("#userNameOne").val();
+      $("#userNameOne").val("");
       $("#userCommentOne").val("");
       var timePost = (new Date().getHours() + ": " + new Date().getMinutes());
       $("#contFirstCom").append("<div class='col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 com '><p id='usuario'>" + 
-        "<i class='fa fa-user-circle' aria-hidden='true'></i>" + ' Posted at: ' + timePost + "</p><p>" + comment +
+        "<i class='fa fa-user-circle' aria-hidden='true'></i><b>" + userOne + '</b> Posted at: ' + timePost + "</p><p>" + comment +
         "</p><div id='icons'><i id='heartOne_" + idHeartOne +
         "' class='fas fa-heart '></i><i id='bombOne_" + idBombOne +
         "' class='fas fa-bomb '></i><a id='basura'><i id='trashOne_" + idTrashOne +
@@ -177,7 +182,10 @@ $(document).ready(function(){
     };
 
     $('#commentsSecond').append("<div class='col-xs-10 col-xs-offset-1 col-sm-10 col-md-10 col-md-offset-1 col-lg-10'>" + 
-      "<div class='widget-area no-padding blank'><div class='status-upload'>" +
+      "<div class='widget-area no-padding blank'>" +
+      "<div class='input-group'><span class='input-group-addon' id='basic-addon1'><i class='fas fa-user'></i></span>" +
+      "<input id='userNameTwo' type='text' class='form-control' placeholder='Username' aria-describedby='basic-addon1'></div>" +
+      "<div class='status-upload'>" +
       "<form action='javascript:void(0)'><textarea id='userCommentTwo' placeholder='Share your opinion!'></textarea>" +
       "<button id='shareTwo' class='btn btn-info'><i class='fas fa-bomb'></i>Post</button>" +
       "</form></div></div></div>")
@@ -189,9 +197,11 @@ $(document).ready(function(){
   $("#shareTwo").click(function (){
     var comment = $("#userCommentTwo").val();
     $("#userCommentTwo").val("");
+    var userTwo = $("#userNameTwo").val();
+    $("#userNameTwo").val("");
     var timePost = (new Date().getHours() + ": " + new Date().getMinutes());
-    $("#contSecondCom").append("<div class='col-xs-10 col-sm-10 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 com'><p id='usuario'>" + 
-      "<i class='fa fa-user-circle' aria-hidden='true'></i>" + ' Posted at: ' + timePost + "</p><p>" + comment +
+    $("#contSecondCom").append("<div class='col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 com'><p id='usuario'>" + 
+      "<i class='fa fa-user-circle' aria-hidden='true'></i><b>" + userTwo + '</b> Posted at: ' + timePost + "</p><p>" + comment +
       "</p><div id='icons'><i id='heartTwo_" + idHeartTwo +
       "' class='fas fa-heart '></i><i id='bombTwo_" + idBombTwo +
       "' class='fas fa-bomb '></i><a id='basura'><i id='trashTwo_" + idTrashTwo +
@@ -267,7 +277,10 @@ $(document).ready(function(){
     };
 
     $('#commentsThird').append("<div class='col-xs-10 col-xs-offset-1 col-sm-10 col-md-10 col-md-offset-1 col-lg-10'>" + 
-      "<div class='widget-area no-padding blank'><div class='status-upload'>" +
+      "<div class='widget-area no-padding blank'>" +
+      "<div class='input-group'><span class='input-group-addon' id='basic-addon1'><i class='fas fa-user'></i></span>" +
+      "<input id='userNameThree' type='text' class='form-control' placeholder='Username' aria-describedby='basic-addon1'></div>" +
+      "<div class='status-upload'>" +
       "<form action='javascript:void(0)'><textarea id='userCommentThree' placeholder='Share your opinion!'></textarea>" +
       "<button id='shareThree' class='btn btn-info'><i class='fas fa-bomb'></i>Post</button>" +
       "</form></div></div></div>")
@@ -278,10 +291,12 @@ $(document).ready(function(){
 
   $("#shareThree").click(function (){
     var comment = $("#userCommentThree").val();
+    var userThree = $("#userNameThree").val();
     $("#userCommentThree").val("");
+    $("#userNameThree").val("");
     var timePost = (new Date().getHours() + ": " + new Date().getMinutes());
-    $("#contThridCom").append("<div class='col-xs-10 col-sm-10 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 com'><p id='usuario'>" + 
-      "<i class='fa fa-user-circle' aria-hidden='true'></i>" + ' Posted at: ' + timePost + "</p><p>" + comment +
+    $("#contThirdCom").append("<div class='col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 com'><p id='usuario'>" + 
+      "<i class='fa fa-user-circle' aria-hidden='true'></i><b>" + userThree + '</b> Posted at: ' + timePost + "</p><p>" + comment +
       "</p><div id='icons'><i id='heartThree_" + idHeartThree +
       "' class='fas fa-heart '></i><i id='bombThree_" + idBombThree +
       "' class='fas fa-bomb '></i><a id='basura'><i id='trashThree_" + idTrashThree +
@@ -357,7 +372,10 @@ $(document).ready(function(){
     };
 
     $('#commentsFourth').append("<div class='col-xs-10 col-xs-offset-1 col-sm-10 col-md-10 col-md-offset-1 col-lg-10'>" + 
-      "<div class='widget-area no-padding blank'><div class='status-upload'>" +
+      "<div class='widget-area no-padding blank'>" +
+      "<div class='input-group'><span class='input-group-addon' id='basic-addon1'><i class='fas fa-user'></i></span>" +
+      "<input id='userNameFour' type='text' class='form-control' placeholder='Username' aria-describedby='basic-addon1'></div>" +
+      "<div class='status-upload'>" +
       "<form action='javascript:void(0)'><textarea id='userCommentFour' placeholder='Share your opinion!'></textarea>" +
       "<button id='shareFour' class='btn btn-info'><i class='fas fa-bomb'></i>Post</button>" +
       "</form></div></div></div>")
@@ -368,10 +386,12 @@ $(document).ready(function(){
 
   $("#shareFour").click(function (){
     var comment = $("#userCommentFour").val();
+    var userFour = $("#userNameFour").val();
+    $("#userNameFour").val("");
     $("#userCommentFour").val("");
     var timePost = (new Date().getHours() + ": " + new Date().getMinutes());
-    $("#contFourthCom").append("<div class='col-xs-10 col-sm-10 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 com'><p id='usuario'>" + 
-      "<i class='fa fa-user-circle' aria-hidden='true'></i>" + ' Posted at: ' + timePost + "</p><p>" + comment +
+    $("#contFouthCom").append("<div class='col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 com'><p id='usuario'>" + 
+      "<i class='fa fa-user-circle' aria-hidden='true'></i><b>" + userFour + '</b> Posted at: ' + timePost + "</p><p>" + comment +
       "</p><div id='icons'><i id='heartFour_" + idHeartFour +
       "' class='fas fa-heart '></i><i id='bombFour_" + idBombFour +
       "' class='fas fa-bomb '></i><a id='basura'><i id='trashFour_" + idTrashFour +
@@ -447,7 +467,10 @@ $(document).ready(function(){
     };
 
     $('#commentsFifth').append("<div class='col-xs-10 col-xs-offset-1 col-sm-10 col-md-10 col-md-offset-1 col-lg-10'>" + 
-      "<div class='widget-area no-padding blank'><div class='status-upload'>" +
+      "<div class='widget-area no-padding blank'>" +
+      "<div class='input-group'><span class='input-group-addon' id='basic-addon1'><i class='fas fa-user'></i></span>" +
+      "<input id='userNameFive' type='text' class='form-control' placeholder='Username' aria-describedby='basic-addon1'></div>" +
+      "<div class='status-upload'>" +
       "<form action='javascript:void(0)'><textarea id='userCommentFive' placeholder='Share your opinion!'></textarea>" +
       "<button id='shareFive' class='btn btn-info'><i class='fas fa-bomb'></i>Post</button>" +
       "</form></div></div></div>")
@@ -458,10 +481,12 @@ $(document).ready(function(){
 
   $("#shareFive").click(function (){
     var comment = $("#userCommentFive").val();
+    var userFive = $("#userNameFive").val();
+    $("#userNameFive").val("");
     $("#userCommentFive").val("");
     var timePost = (new Date().getHours() + ": " + new Date().getMinutes());
-    $("#contFifthCom").append("<div class='col-xs-10 col-sm-10 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 com'><p id='usuario'>" + 
-      "<i class='fa fa-user-circle' aria-hidden='true'></i>" + ' Posted at: ' + timePost + "</p><p>" + comment +
+    $("#contFifthCom").append("<div class='col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 com'><p id='usuario'>" + 
+      "<i class='fa fa-user-circle' aria-hidden='true'></i><b>" + userFive + '</b> Posted at: ' + timePost + "</p><p>" + comment +
       "</p><div id='icons'><i id='heartFive_" + idHeartFive +
       "' class='fas fa-heart '></i><i id='bombFive_" + idBombFive +
       "' class='fas fa-bomb '></i><a id='basura'><i id='trashFive_" + idTrashFive +

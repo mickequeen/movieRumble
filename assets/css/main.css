@@ -216,7 +216,10 @@ left: 400px;
   background-size: cover;
 }
 
-.dos , .cuatro{
+.fa-user-circle{
+  padding-right: 1em;
+}
+.dos , .cuatro, .seis{
   padding-bottom: 2em;
   padding-top: 0.8em;
   background: linear-gradient(to bottom, #e31717 , #e31717) ;
