@@ -43,7 +43,7 @@ $(document).ready(function(){
       "<div class='caption'><h3 class='title' id='ultron'>" + "</h3><p class='plot' id='plotUltron'></p>" +
       "<h4><b>Critics</b></h4>" +
       "<p id='avengersIMDataBase'></p><p id='avengersRotten'></p>" +
-      "<p> <i class='fa fa-star movie' aria-hidden='true'></i>" +
+      "<p><i class='fa fa-star movie' aria-hidden='true'></i>" +
       "<i class='fa fa-star movie' aria-hidden='true'></i>" +
       "<i class='fa fa-star movie' aria-hidden='true'></i>" +
       "<i class='fa fa-star movie' aria-hidden='true'></i>" +
