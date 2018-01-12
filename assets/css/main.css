@@ -185,7 +185,7 @@ h1{
 
 
 
-.uno{
+.uno, .tres, .cinco{
   padding-top: 2em;
   padding-bottom: 0.7em;
   background: linear-gradient(to bottom, #e31717 , #e31717 ) ;
@@ -196,7 +196,7 @@ h1{
   background-size: cover;
 }
 
-.dos{
+.dos , .cuatro{
   padding-bottom: 2em;
   padding-top: 0.8em;
   background: linear-gradient(to bottom, #e31717 , #e31717) ;
