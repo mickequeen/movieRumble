@@ -167,6 +167,23 @@ h1{
 }
 
 
+#im{
+width: 50%;
+position: relative;
+bottom: 550px;
+left: 400px;
+}
+
+@media only screen and (max-width: 640px){
+  #im{
+  position: relative;
+  bottom: 140px;
+  left:130px;
+  }
+  
+  }
+
+
 .marvel{
   background: linear-gradient(to bottom right,#FD5252 , #FFF);
 }
@@ -220,15 +237,20 @@ h1{
   color:#fff;
 }
 
-#logfooter{
-  margin-top:10px;
+#logfooter {
+ margin-top:20px;
   }
   
 .fa-facebook-square{
   margin-top:30px;
-  margin-left:100px;
+  
 }
-
+.fa-instagram{
+  margin-top: 30px;
+}
+.fa-twitter-square{
+  margin-top: 30px;
+}
 @media (max-width: 670px) {
   .nn{
     margin-left: 100px;
