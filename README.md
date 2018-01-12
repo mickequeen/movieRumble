@@ -85,18 +85,25 @@ Producto web. Versión mobile y escritorio.
 Sketches elaborados en el proyecto:
 
 
-**SKETCH GENERAL**
+**SKETCH INICIO DEL PROYECTO**
 
 ![](https://i.imgur.com/97fFc8X.jpg)
 
-**SKETCH CON DETALLES**
+
+**DETALLES SKETCH INICIO**
 
 ![](https://i.imgur.com/xKCztYf.jpg)
 
 
-**SKETCH MODAL LOGIN-REGISTRO**
+**DETALLE MODAL LOGIN-REGISTRO**
 
 ![](https://i.imgur.com/ilkCRxR.jpg)
+
+
+**SKETCH INTERMEDIO DEL PROYECTO**
+
+![](https://i.imgur.com/GB4RzVl.jpg)
+
 
 
 
@@ -174,3 +181,10 @@ DIVISION DEL TRABAJO
 - Elaboración de README.
 
 **(Enero de 2017)**
+
+
+
+
+
+
+

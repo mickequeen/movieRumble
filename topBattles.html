@@ -14,7 +14,6 @@
   <link rel="shortcut icon" href="assets/img/logopow.png" type="image/png">
   </head>
 <body>
-
 <!-- Section Header -->
 <header>
   <nav class="navbar navbar-inverse navbar-fixed-top barra" role="navigation">
@@ -27,13 +26,13 @@
       </button>
       <a class="navbar-brand" href="#"><img class="logopow" src="assets/img/logopow.png" width="115" height="115" alt=""></a>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <div class="col-lg-offset-3 col-md-offset-3">
+        <div class="col-lg-offset-7 col-md-offset-7">
           <ul class="nav navbar-nav">
             <li>
-              <a href="#">Inicio</a>
+              <a href="index.html">Inicio</a>
             </li>
             <li>
-              <a href="topBattles.html">Top Battles</a>
+              <a href="#">Top Battles</a>
             </li>
             <li>
               <a href="#">Marvel Movies</a>
@@ -45,23 +44,23 @@
               <a id="login" href="#">Login</a>
             </li>
             <div style="display: none;" id="modal">
-              <h1>Sign In</h1>
+              <h1>Inicia Sesión</h1>
               <input id="txtEmail" class="login-input" type="email" name="email" placeholder="Email">
               <br>
               <input id="txtPassword" class="login-input" type="password" name="pass" placeholder="Password">
               <br>
               <button id="btnLogin" class="btn btn-default">Login</button>
               <br>
-              <button class="btn btn-default registrar-btn">Register</button>
+              <button class="btn btn-default registrar-btn">Registrarse</button>
               <br>
               <button id="btnLogout" class="btn btn-default hide">Logout</button>
-
+            </div>
             <div id="modal2" style="display: none;">
               <input id="txtSignupUser" class="login-input" type="text" name="email" placeholder="Nombre de Usuario">
               <input id="txtSignupEmail" class="login-input" type="email" name="email" placeholder="Email">
               <input id="txtSignupPassword" class="login-input" type="password" name="pass" placeholder="Password">
               <br>
-              <button id="btnSignUp" class="btn btn-default">Register</button>
+              <button id="btnSignUp" class="btn btn-default">Regístrate</button>
             </div>
           </ul>
         </div><!-- /.navbar-collapse -->
@@ -70,21 +69,12 @@
   </nav>
 </header>
 
-<!-- Video -->
-<section class='container-fluid'>
-  <div class="row log">  
-     <video class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="video" src="assets/video/MarvelDcc.mp4" muted autoplay loop poster alt="">
-      </video><img id="im" src="assets/img/TITULO.png" alt="">
-  </div>
-</section>
-
 <!--section dos columnas para cada seccion-->
 <!-- datos 1-->
 <section>
 <div class="container-fluid datos">
   <div class="row uno">
-    <img class="img-responsive last" src="assets/img/lbatles.png" alt="">
-
+    <img class="img-responsive" src="assets/img/20180111_213516.png" alt="">
     <div id="firstBattle">
     <!-- contenido de primera batalla generada por jquery -->
     </div>
@@ -119,6 +109,39 @@
       
     </div>
   </div>
+  <div class="row cuatro">
+    <div id="fourthBattle">
+      <!-- contenido 4ta batalla generada por jquery -->
+    </div>
+    <div id="contFouthCom">
+      
+    </div>
+    <div id="commentsFourth">
+      
+    </div>
+  </div>
+  <div class="row cinco">
+    <div id="fifthBattle">
+      <!-- contenido 5ta batalla generada por jquery -->
+    </div>
+    <div id="contFifthCom">
+      
+    </div>
+    <div id="commentsFifth">
+      
+    </div>
+  </div>
+  <div class="row seis">
+    <div id="sixthBattle">
+      <!-- contenido 5ta batalla generada por jquery -->
+    </div>
+    <div id="contSixthCom">
+      
+    </div>
+    <div id="commentsSixth">
+      
+    </div>
+  </div>
 </div>
 
 
@@ -129,12 +152,12 @@
 
   <div class="container-fluid foot">
     <div class="row">
-      <div class="col-xs-5 col-sm-5 col-md-6 foot1">
+      <div class="col-xs-6 col-sm-8 col-md-8 foot1">
         <i class="fab fa-facebook-square"></i>
         <i class="fab fa-instagram"></i>
         <i class="fab fa-twitter-square"></i>
       </div>
-    <div class="col-xs-7 col-sm-7 col-md-4 pull-right">
+    <div class="col-xs-6 col-sm-4 col-md-4 pull-right">
       <p><img id="logfooter" class="logopow" src="assets/img/logopow.png" width="60" height="60" alt="">© Copyright 2018</p>
     </div>
   </div>

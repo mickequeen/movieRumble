@@ -9,7 +9,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #fff;
+  background-color:#0C0B0B;
   background-size: cover;
   padding-top: 4.5em;
   width: 100%;
@@ -19,12 +19,13 @@ body {
 /*
 *Estilos Navbar
 */
-
-.navright {
-  float: right;
+.navbar-inverse .navbar-nav>li>a {
+  font-weight: bold;
+  font-size: 16px;
 }
-.navbar-r {
-  float: right;
+
+.navbar {
+  height: 70px;
 }
 
 .logopow {
@@ -63,7 +64,7 @@ body {
 }
 
 /*
-*Seccion  Datos 
+*Sección Datos
 */
 
 .datos{
@@ -119,14 +120,6 @@ h1{
   width: 35%;
 }
 
-.face-btn{
-  background: #4267b2;
-  color: #fff;
-  text-align:center;
-  margin-top: 2%;
-  font-weight: bold;
-}
-
 .caja{
   margin-top:40px; 
 }
@@ -137,6 +130,48 @@ h1{
 
 .title{
   text-align: center;
+}
+
+.fa-facebook-square,
+.fa-instagram,
+.fa-twitter-square{
+  padding: 1%;
+  color: #fff;
+  font-size: 30px;
+}
+
+.fa-facebook-square:hover,
+.fa-instagram:hover,
+.fa-twitter-square:hover{
+  color: red;
+  cursor: pointer;
+}
+
+.fa-star{
+  padding: 0.5em;
+}
+
+.fa-star:hover{
+  color: yellow;
+  cursor: pointer;
+}
+
+.last{
+  margin-left: 9%;
+  width: 900px;
+}
+
+.navbar-inverse .navbar-collapse, 
+.navbar-inverse .navbar-form {
+  border-color: #101010;
+  background: #292828;
+}
+
+@media (max-width: 670px){
+.img-responsive {
+  padding-left: 0em;
+  margin-left: 1%;
+  }
 }
 
 @media only screen and (max-width: 640px){
@@ -155,9 +190,51 @@ h1{
   margin-top: 2%;
   font-weight: bold;
   width: 65%;
+  }
 }
 
+/*
+*Version Laptop
+*/
+
+@media only screen and (min-width:768px){
+  #im{
+  position: relative;
+  width: 50%;
+  bottom: 220px;
+  left:400px;
+  }
+  
+  }
+
+.log{
+  height:70px;
 }
+
+/*
+*Version Tablet
+*/
+
+ @media only screen and (max-width:768px){ 
+  #im{
+  position:relative;
+  width: 250px;
+  bottom: 100px;
+  left:100px;
+  }
+  
+  }
+/*
+*Version Smart Phones
+*/
+@media only screen and (max-width:375px){
+  #im{
+  position: relative;
+  width: 200px;
+  bottom: 70px;
+  left:80px;
+  }
+  }
 
 
 .marvel{
@@ -176,18 +253,28 @@ h1{
   border: none;
 }
 
+.img-responsive{
+  padding-left: 15%;
+}
+
+
 .uno{
   padding-top: 2em;
-  padding-bottom: 0.8em;
+  padding-bottom: 0.7em;
   background: linear-gradient(to bottom, #e31717 , #e31717 ) ;
   background: linear-gradient(to bottom, #4C4C4C ,#D9D7D7) ;
   background-image: url(../img/fondo2.jpg);
-
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
-.dos{
+.fa-user-circle{
+  padding-right: 1em;
+}
+.dos , .cuatro, .seis{
   padding-bottom: 2em;
-  padding-top: 2em;
+  padding-top: 0.8em;
   background: linear-gradient(to bottom, #e31717 , #e31717) ;
   background: linear-gradient(to bottom, #D9D7D7, #4C4C4C) ;
   background-image: url(../img/fondo1.jpg);
@@ -202,27 +289,27 @@ h1{
 
 .foot{
  background-color: #231E1E;
+}
 
-}
-.foot1 i{
-  top:50px;
-  color:#fff;
-  font-size: 200%;
-  left: 200px;
-}
+
 .foot p{
   color:#fff;
 }
 
-#logfooter{
-  margin-top:10px;
+#logfooter {
+ margin-top:20px;
   }
   
 .fa-facebook-square{
   margin-top:30px;
-  margin-left:100px;
+  
 }
-
+.fa-instagram{
+  margin-top: 30px;
+}
+.fa-twitter-square{
+  margin-top: 30px;
+}
 @media (max-width: 670px) {
   .nn{
     margin-left: 100px;
@@ -239,6 +326,9 @@ h1{
   .nn2{
     margin-left:0px;
   }
+  .img-responsive{
+    padding-left: 0em;
+  }
 }
 
 
@@ -249,19 +339,6 @@ h1{
     position: absolute;
     z-index: 1;
   }
-}
-
-.dropdown-menu{
-  background-color:  #4F4C4C;
-}
-.dropdown-menu li{
-  background-color: #4F4C4C;
-  color: #FFF;
-}
-
-.dropdown-menu li a{
-  color: #FFF;
-  font-weight: bolder;
 }
 
 
